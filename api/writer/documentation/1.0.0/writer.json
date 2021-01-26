@@ -603,7 +603,8 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "image"
+                "image",
+                "premium"
               ],
               "properties": {
                 "id": {
@@ -634,6 +635,12 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "premium": {
+                  "type": "boolean"
+                },
+                "teaserText": {
                   "type": "string"
                 },
                 "published_at": {

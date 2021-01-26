@@ -561,6 +561,9 @@
                 "role": {
                   "type": "string"
                 },
+                "premiumUntil": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

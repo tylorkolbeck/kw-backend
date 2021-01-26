@@ -525,7 +525,8 @@
           "publishedAt",
           "status",
           "slug",
-          "image"
+          "image",
+          "premium"
         ],
         "properties": {
           "id": {
@@ -683,6 +684,13 @@
               }
             }
           },
+          "premium": {
+            "type": "boolean",
+            "default": false
+          },
+          "teaserText": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -696,7 +704,8 @@
           "content",
           "publishedAt",
           "status",
-          "slug"
+          "slug",
+          "premium"
         ],
         "properties": {
           "title": {
@@ -727,6 +736,13 @@
             "type": "string"
           },
           "author": {
+            "type": "string"
+          },
+          "premium": {
+            "type": "boolean",
+            "default": false
+          },
+          "teaserText": {
             "type": "string"
           },
           "published_at": {

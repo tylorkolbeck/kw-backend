@@ -1250,6 +1250,10 @@
                 "type": "string"
               }
             }
+          },
+          "premiumUntil": {
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -1291,6 +1295,10 @@
           },
           "role": {
             "type": "string"
+          },
+          "premiumUntil": {
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"

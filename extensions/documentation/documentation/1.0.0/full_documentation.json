@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/25/2021 8:10:35 PM"
+    "x-generation-date": "01/25/2021 8:58:39 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4306,7 +4306,8 @@
           "publishedAt",
           "status",
           "slug",
-          "image"
+          "image",
+          "premium"
         ],
         "properties": {
           "id": {
@@ -4464,6 +4465,13 @@
               }
             }
           },
+          "premium": {
+            "type": "boolean",
+            "default": false
+          },
+          "teaserText": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -4477,7 +4485,8 @@
           "content",
           "publishedAt",
           "status",
-          "slug"
+          "slug",
+          "premium"
         ],
         "properties": {
           "title": {
@@ -4508,6 +4517,13 @@
             "type": "string"
           },
           "author": {
+            "type": "string"
+          },
+          "premium": {
+            "type": "boolean",
+            "default": false
+          },
+          "teaserText": {
             "type": "string"
           },
           "published_at": {
@@ -4549,7 +4565,8 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "image"
+                "image",
+                "premium"
               ],
               "properties": {
                 "id": {
@@ -4580,6 +4597,12 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "premium": {
+                  "type": "boolean"
+                },
+                "teaserText": {
                   "type": "string"
                 },
                 "published_at": {
@@ -5208,7 +5231,8 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "image"
+                "image",
+                "premium"
               ],
               "properties": {
                 "id": {
@@ -5239,6 +5263,12 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "premium": {
+                  "type": "boolean"
+                },
+                "teaserText": {
                   "type": "string"
                 },
                 "published_at": {
@@ -5379,6 +5409,9 @@
                 "role": {
                   "type": "string"
                 },
+                "premiumUntil": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -5491,6 +5524,10 @@
                 "type": "string"
               }
             }
+          },
+          "premiumUntil": {
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -5532,6 +5569,10 @@
           },
           "role": {
             "type": "string"
+          },
+          "premiumUntil": {
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"

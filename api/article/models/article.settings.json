@@ -59,6 +59,14 @@
     "author": {
       "model": "writer",
       "via": "articles"
+    },
+    "premium": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "teaserText": {
+      "type": "richtext"
     }
   }
 }
