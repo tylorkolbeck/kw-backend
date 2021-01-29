@@ -35,6 +35,15 @@ EMAIL_ADDRESS_FROM
 EMAIL_ADDRESS_REPLY_TO
 ```
 
+### AWS s3 bucket variables
+
+```
+AWS_ACCESS_KEY_ID
+AWS_ACCESS_SECRET
+AWS_BUCKET
+AWS_REGION
+```
+
 ## Start Strapi Server
 
 `npm run develop`
