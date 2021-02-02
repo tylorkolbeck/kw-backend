@@ -22,7 +22,7 @@ function startRebuildCountdown() {
   //     console.log("COUNTDOWN", countdown);
   //   }
   // }, 5000);
-  callRebuildHook();
+  // callRebuildHook();
 }
 
 function callRebuildHook() {

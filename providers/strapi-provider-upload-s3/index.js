@@ -36,7 +36,7 @@ module.exports = {
 
               // set the bucket file url
               // file.url = data.Location;
-              file.url = `https://d2mc8fs8vjub2b.cloudfront.net/${data.key}`;
+              file.url = `https://duj27fxoqhxbb.cloudfront.net/${data.key}`;
 
               resolve();
             }
