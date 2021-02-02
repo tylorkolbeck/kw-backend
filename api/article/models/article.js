@@ -10,6 +10,7 @@ let intervalId;
 let countdown = COOLDOWN;
 
 function startRebuildCountdown() {
+  console.log("START REBUILD");
   clearInterval(intervalId);
   countdown = COOLDOWN;
   intervalId = setInterval(() => {
@@ -17,12 +18,16 @@ function startRebuildCountdown() {
     if (countdown <= 0) {
       callRebuildHook();
       clearInterval(intervalId);
+    } else {
+      console.log("COUNTDOWN", countdown);
     }
   }, 5000);
 }
 
 function callRebuildHook() {
+  console.log("CALLING WEBHOOK FUNCTION");
   if (process.env.NODE_ENV === "production") {
+    console.log("CALLING WEBHOOK - SHOULD SEE REBUILD");
     axios
       .post(
         `${proccess.env.DIGITAL_OCEAN_DEPLOY_API}`,
