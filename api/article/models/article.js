@@ -10,23 +10,24 @@ let intervalId;
 let countdown = COOLDOWN;
 
 function startRebuildCountdown() {
-  console.log("START REBUILD");
-  clearInterval(intervalId);
-  countdown = COOLDOWN;
-  intervalId = setInterval(() => {
-    countdown -= 5000;
-    if (countdown <= 0) {
-      callRebuildHook();
-      clearInterval(intervalId);
-    } else {
-      console.log("COUNTDOWN", countdown);
-    }
-  }, 5000);
+  // console.log("START REBUILD");
+  // clearInterval(intervalId);
+  // countdown = COOLDOWN;
+  // intervalId = setInterval(() => {
+  //   countdown -= 5000;
+  //   if (countdown <= 0) {
+  //     callRebuildHook();
+  //     clearInterval(intervalId);
+  //   } else {
+  //     console.log("COUNTDOWN", countdown);
+  //   }
+  // }, 5000);
+  callRebuildHook();
 }
 
 function callRebuildHook() {
-  console.log("CALLING WEBHOOK FUNCTION");
-  if (process.env.NODE_ENV === "production") {
+  console.log("CALLING WEBHOOK FUNCTION", process.env.NODE_ENV);
+  if (process.env.NODE_ENV !== "development") {
     console.log("CALLING WEBHOOK - SHOULD SEE REBUILD");
     axios
       .post(
