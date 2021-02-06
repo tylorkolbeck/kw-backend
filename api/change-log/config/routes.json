@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/change-logs",
+      "handler": "change-log.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/change-logs/count",
+      "handler": "change-log.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/change-logs/:id",
+      "handler": "change-log.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/change-logs",
+      "handler": "change-log.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/change-logs/:id",
+      "handler": "change-log.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/change-logs/:id",
+      "handler": "change-log.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

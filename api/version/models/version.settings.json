@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "versions",
+  "info": {
+    "name": "version",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "majorVersion": {
+      "type": "integer"
+    },
+    "minorVersion": {
+      "type": "integer"
+    }
+  }
+}

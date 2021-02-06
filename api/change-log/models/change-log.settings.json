@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "change_logs",
+  "info": {
+    "name": "Change Log",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "releaseDate": {
+      "type": "datetime"
+    },
+    "majorVersion": {
+      "type": "integer"
+    },
+    "changeDescription": {
+      "type": "richtext"
+    },
+    "minorVersion": {
+      "type": "integer"
+    }
+  }
+}
