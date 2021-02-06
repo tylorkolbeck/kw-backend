@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fa-qs",
+      "handler": "fa-qs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fa-qs/count",
+      "handler": "fa-qs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fa-qs/:id",
+      "handler": "fa-qs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fa-qs",
+      "handler": "fa-qs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fa-qs/:id",
+      "handler": "fa-qs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fa-qs/:id",
+      "handler": "fa-qs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

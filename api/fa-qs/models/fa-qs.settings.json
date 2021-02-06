@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fa_qs",
+  "info": {
+    "name": "FAQs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

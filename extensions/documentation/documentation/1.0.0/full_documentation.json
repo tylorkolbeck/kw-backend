@@ -14,7 +14,11 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
+<<<<<<< HEAD
+    "x-generation-date": "02/02/2021 10:25:16 PM"
+=======
     "x-generation-date": "02/03/2021 10:16:45 AM"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1071,6 +1075,15 @@
         ]
       }
     },
+<<<<<<< HEAD
+    "/fa-qs": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the fa-qs's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve fa-qs document(s)",
+=======
     "/change-logs": {
       "get": {
         "deprecated": false,
@@ -1078,6 +1091,7 @@
         "responses": {
           "200": {
             "description": "response",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1123,7 +1137,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "parameters": [
           {
@@ -1266,10 +1284,17 @@
       },
       "post": {
         "deprecated": false,
+<<<<<<< HEAD
+        "description": "Create a new fa-qs record",
+        "responses": {
+          "200": {
+            "description": "Retrieve fa-qs document(s)",
+=======
         "description": "Create a new record",
         "responses": {
           "200": {
             "description": "response",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1315,7 +1340,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "requestBody": {
           "description": "",
@@ -1323,13 +1352,26 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/NewFa-qs"
+=======
                 "$ref": "#/components/schemas/NewChange-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
               }
             }
           }
         }
       }
     },
+<<<<<<< HEAD
+    "/fa-qs/count": {
+      "get": {
+        "deprecated": false,
+        "description": "Retrieve the numver of fa-qs documents",
+        "responses": {
+          "200": {
+            "description": "Retrieve fa-qs document(s)",
+=======
     "/change-logs/count": {
       "get": {
         "deprecated": false,
@@ -1337,6 +1379,7 @@
         "responses": {
           "200": {
             "description": "response",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1382,11 +1425,24 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "parameters": []
       }
     },
+<<<<<<< HEAD
+    "/fa-qs/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "Find one fa-qs record",
+        "responses": {
+          "200": {
+            "description": "Retrieve fa-qs document(s)",
+=======
     "/change-logs/{id}": {
       "get": {
         "deprecated": false,
@@ -1394,6 +1450,7 @@
         "responses": {
           "200": {
             "description": "response",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1439,7 +1496,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "parameters": [
           {
@@ -1456,10 +1517,17 @@
       },
       "put": {
         "deprecated": false,
+<<<<<<< HEAD
+        "description": "Update a single fa-qs record",
+        "responses": {
+          "200": {
+            "description": "Retrieve fa-qs document(s)",
+=======
         "description": "Update a record",
         "responses": {
           "200": {
             "description": "response",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1505,7 +1573,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "requestBody": {
           "description": "",
@@ -1513,7 +1585,11 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/NewFa-qs"
+=======
                 "$ref": "#/components/schemas/NewChange-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
               }
             }
           }
@@ -1533,10 +1609,17 @@
       },
       "delete": {
         "deprecated": false,
+<<<<<<< HEAD
+        "description": "Delete a single fa-qs record",
+        "responses": {
+          "200": {
+            "description": "deletes a single fa-qs based on the ID supplied",
+=======
         "description": "Delete a record",
         "responses": {
           "200": {
             "description": "deletes a single record based on the ID supplied",
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
             "content": {
               "application/json": {
                 "schema": {
@@ -1579,7 +1662,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
+          "Fa-qs"
+=======
           "Change-log"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "parameters": [
           {
@@ -5476,14 +5563,59 @@
           }
         }
       },
+<<<<<<< HEAD
+      "Fa-qs": {
+        "required": [
+          "id",
+          "question",
+          "answer"
+=======
       "Change-log": {
         "required": [
           "id"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
         ],
         "properties": {
           "id": {
             "type": "string"
           },
+<<<<<<< HEAD
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "category": {
+            "required": [
+              "id",
+              "name",
+              "slug"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "uid"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+=======
           "releaseDate": {
             "type": "string",
             "format": "date-time"
@@ -5496,6 +5628,7 @@
           },
           "minorVersion": {
             "type": "integer"
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
           },
           "published_at": {
             "type": "string",
@@ -5503,6 +5636,23 @@
           }
         }
       },
+<<<<<<< HEAD
+      "NewFa-qs": {
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+=======
       "NewChange-log": {
         "properties": {
           "releaseDate": {
@@ -5518,6 +5668,7 @@
           "minorVersion": {
             "type": "integer"
           },
+>>>>>>> 3551fe8c4934c500919a6c3adf18cec4948199a1
           "published_at": {
             "type": "string",
             "format": "date-time"
