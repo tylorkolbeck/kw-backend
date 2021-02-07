@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "carousel_timers",
+  "info": {
+    "name": "Carousel Timer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "seconds": {
+      "type": "integer"
+    }
+  }
+}

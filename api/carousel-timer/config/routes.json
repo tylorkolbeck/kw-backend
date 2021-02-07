@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/carousel-timer",
+      "handler": "carousel-timer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/carousel-timer",
+      "handler": "carousel-timer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/carousel-timer",
+      "handler": "carousel-timer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

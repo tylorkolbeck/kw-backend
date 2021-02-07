@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousels",
+  "info": {
+    "name": "Carousel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardContent": {
+      "type": "string"
+    },
+    "cardImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cardLink": {
+      "type": "string"
+    }
+  }
+}
