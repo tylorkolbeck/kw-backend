@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_contacts",
+  "info": {
+    "name": "Newsletter contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/newsletter-contacts",
+      "handler": "newsletter-contact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsletter-contacts/count",
+      "handler": "newsletter-contact.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsletter-contacts/:id",
+      "handler": "newsletter-contact.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/newsletter-contacts",
+      "handler": "newsletter-contact.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/newsletter-contacts/:id",
+      "handler": "newsletter-contact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/newsletter-contacts/:id",
+      "handler": "newsletter-contact.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
