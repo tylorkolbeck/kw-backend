@@ -1,5 +1,6 @@
 "use strict";
 const axios = require("axios").default;
+const { DateTime } = require("luxon");
 
 /**
  * Read the documentation (https://strapi.io/documentation/v3.x/concepts/models.html#lifecycle-hooks)
@@ -49,11 +50,26 @@ function callRebuildHook() {
 
 module.exports = {
   lifecycles: {
-    afterCreate: async (entry) => {
-      startRebuildCountdown();
-    },
     afterUpdate: async (entry) => {
-      startRebuildCountdown();
+      const dateNow = DateTime.local();
+      let secondsSincePublished;
+
+      if (entry.published_at) {
+        secondsSincePublished = DateTime.fromISO(dateNow).diff(
+          DateTime.fromISO(entry.published_at),
+          "seconds"
+        ).values.seconds;
+      }
+
+      if (secondsSincePublished < 10) {
+        console.log(
+          "This was recently published and it needs to be pushed out"
+        );
+        strapi.services.bot.sendBlogPostToDiscord(
+          "general",
+          `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
+        );
+      }
     },
   },
 };
