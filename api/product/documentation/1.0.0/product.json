@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/categories": {
+    "/products": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -12,7 +12,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Category"
+                    "$ref": "#/components/schemas/Product"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "parameters": [
           {
@@ -201,7 +201,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Category"
+                  "$ref": "#/components/schemas/Product"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "requestBody": {
           "description": "",
@@ -247,14 +247,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewCategory"
+                "$ref": "#/components/schemas/NewProduct"
               }
             }
           }
         }
       }
     },
-    "/categories/count": {
+    "/products/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -306,12 +306,12 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "parameters": []
       }
     },
-    "/categories/{slug}": {
+    "/products/{slug}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -321,7 +321,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Category"
+                  "$ref": "#/components/schemas/Product"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "parameters": [
           {
@@ -375,7 +375,7 @@
         ]
       }
     },
-    "/categories/{id}": {
+    "/products/{id}": {
       "put": {
         "deprecated": false,
         "description": "Update a record",
@@ -385,7 +385,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Category"
+                  "$ref": "#/components/schemas/Product"
                 }
               }
             }
@@ -423,7 +423,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "requestBody": {
           "description": "",
@@ -431,7 +431,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewCategory"
+                "$ref": "#/components/schemas/NewProduct"
               }
             }
           }
@@ -497,7 +497,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Product"
         ],
         "parameters": [
           {
@@ -516,10 +516,9 @@
   },
   "components": {
     "schemas": {
-      "Category": {
+      "Product": {
         "required": [
           "id",
-          "name",
           "slug"
         ],
         "properties": {
@@ -529,90 +528,107 @@
           "name": {
             "type": "string"
           },
+          "description": {
+            "type": "string"
+          },
+          "productType": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "Signal",
+              "Trend",
+              "Template"
+            ]
+          },
+          "features": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          },
+          "setup": {
+            "type": "string"
+          },
+          "exchange": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "recommendedBalance": {
+            "type": "string"
+          },
+          "riskLevel": {
+            "type": "string"
+          },
+          "automated": {
+            "type": "boolean"
+          },
+          "cryptoHopperLink": {
+            "type": "string"
+          },
           "slug": {
             "type": "uid"
           },
-          "articles": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "title",
-                "description",
-                "content",
-                "publishedAt",
-                "status",
-                "slug",
-                "category",
-                "image",
-                "author",
-                "premium"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "content": {
-                  "type": "string"
-                },
-                "publishedAt": {
-                  "type": "string"
-                },
-                "status": {
-                  "type": "string"
-                },
-                "slug": {
-                  "type": "uid"
-                },
-                "category": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "author": {
-                  "type": "string"
-                },
-                "premium": {
-                  "type": "boolean"
-                },
-                "published_at": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
-      "NewCategory": {
+      "NewProduct": {
         "required": [
-          "name",
           "slug"
         ],
         "properties": {
           "name": {
             "type": "string"
           },
+          "description": {
+            "type": "string"
+          },
+          "productType": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "Signal",
+              "Trend",
+              "Template"
+            ]
+          },
+          "features": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          },
+          "setup": {
+            "type": "string"
+          },
+          "exchange": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "recommendedBalance": {
+            "type": "string"
+          },
+          "riskLevel": {
+            "type": "string"
+          },
+          "automated": {
+            "type": "boolean"
+          },
+          "cryptoHopperLink": {
+            "type": "string"
+          },
           "slug": {
             "type": "uid"
           },
-          "articles": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -626,7 +642,7 @@
   },
   "tags": [
     {
-      "name": "Category"
+      "name": "Product"
     }
   ]
 }
