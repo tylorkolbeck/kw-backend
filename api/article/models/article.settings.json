@@ -43,7 +43,8 @@
     },
     "category": {
       "model": "category",
-      "via": "articles"
+      "via": "articles",
+      "required": true
     },
     "image": {
       "model": "file",
@@ -58,15 +59,13 @@
     },
     "author": {
       "model": "writer",
-      "via": "articles"
+      "via": "articles",
+      "required": true
     },
     "premium": {
       "type": "boolean",
       "default": false,
       "required": true
-    },
-    "teaserText": {
-      "type": "richtext"
     }
   }
 }

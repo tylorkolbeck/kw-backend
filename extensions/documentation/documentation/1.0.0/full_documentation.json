@@ -14,7 +14,11 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
+<<<<<<< HEAD
     "x-generation-date": "02/13/2021 6:29:12 PM"
+=======
+    "x-generation-date": "02/13/2021 8:53:41 PM"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3613,7 +3617,11 @@
         "parameters": []
       }
     },
+<<<<<<< HEAD
     "/newsletter-contacts": {
+=======
+    "/products": {
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
       "get": {
         "deprecated": false,
         "description": "",
@@ -3623,10 +3631,16 @@
             "content": {
               "application/json": {
                 "schema": {
+<<<<<<< HEAD
                   "properties": {
                     "foo": {
                       "type": "string"
                     }
+=======
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
                   }
                 }
               }
@@ -3665,7 +3679,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
+=======
+          "Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "parameters": [
           {
@@ -3815,11 +3833,15 @@
             "content": {
               "application/json": {
                 "schema": {
+<<<<<<< HEAD
                   "properties": {
                     "foo": {
                       "type": "string"
                     }
                   }
+=======
+                  "$ref": "#/components/schemas/Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
                 }
               }
             }
@@ -3857,7 +3879,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
+=======
+          "Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "requestBody": {
           "description": "",
@@ -3865,14 +3891,22 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/NewNewsletter-contact"
+=======
+                "$ref": "#/components/schemas/NewProduct"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
               }
             }
           }
         }
       }
     },
+<<<<<<< HEAD
     "/newsletter-contacts/count": {
+=======
+    "/products/count": {
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
       "get": {
         "deprecated": false,
         "description": "",
@@ -3883,8 +3917,13 @@
               "application/json": {
                 "schema": {
                   "properties": {
+<<<<<<< HEAD
                     "foo": {
                       "type": "string"
+=======
+                    "count": {
+                      "type": "integer"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
                     }
                   }
                 }
@@ -3924,12 +3963,20 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
+=======
+          "Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "parameters": []
       }
     },
+<<<<<<< HEAD
     "/newsletter-contacts/{email}": {
+=======
+    "/products/{slug}": {
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
       "get": {
         "deprecated": false,
         "description": "",
@@ -3939,11 +3986,15 @@
             "content": {
               "application/json": {
                 "schema": {
+<<<<<<< HEAD
                   "properties": {
                     "foo": {
                       "type": "string"
                     }
                   }
+=======
+                  "$ref": "#/components/schemas/Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
                 }
               }
             }
@@ -3981,11 +4032,19 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
         ],
         "parameters": [
           {
             "name": "email",
+=======
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
             "in": "path",
             "description": "",
             "deprecated": false,
@@ -3997,7 +4056,11 @@
         ]
       }
     },
+<<<<<<< HEAD
     "/newsletter-contacts/{id}": {
+=======
+    "/products/{id}": {
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
       "put": {
         "deprecated": false,
         "description": "Update a record",
@@ -4007,11 +4070,15 @@
             "content": {
               "application/json": {
                 "schema": {
+<<<<<<< HEAD
                   "properties": {
                     "foo": {
                       "type": "string"
                     }
                   }
+=======
+                  "$ref": "#/components/schemas/Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
                 }
               }
             }
@@ -4049,7 +4116,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
+=======
+          "Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "requestBody": {
           "description": "",
@@ -4057,7 +4128,11 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/NewNewsletter-contact"
+=======
+                "$ref": "#/components/schemas/NewProduct"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
               }
             }
           }
@@ -4123,7 +4198,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Newsletter-contact"
+=======
+          "Product"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "parameters": [
           {
@@ -7067,7 +7146,9 @@
           "publishedAt",
           "status",
           "slug",
+          "category",
           "image",
+          "author",
           "premium"
         ],
         "properties": {
@@ -7230,9 +7311,6 @@
             "type": "boolean",
             "default": false
           },
-          "teaserText": {
-            "type": "string"
-          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -7247,6 +7325,8 @@
           "publishedAt",
           "status",
           "slug",
+          "category",
+          "author",
           "premium"
         ],
         "properties": {
@@ -7283,9 +7363,6 @@
           "premium": {
             "type": "boolean",
             "default": false
-          },
-          "teaserText": {
-            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -7468,7 +7545,9 @@
                 "publishedAt",
                 "status",
                 "slug",
+                "category",
                 "image",
+                "author",
                 "premium"
               ],
               "properties": {
@@ -7504,9 +7583,6 @@
                 },
                 "premium": {
                   "type": "boolean"
-                },
-                "teaserText": {
-                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -8178,28 +8254,136 @@
           }
         }
       },
+<<<<<<< HEAD
       "Newsletter-contact": {
         "required": [
           "id"
+=======
+      "Product": {
+        "required": [
+          "id",
+          "slug"
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
         ],
         "properties": {
           "id": {
             "type": "string"
           },
+<<<<<<< HEAD
           "email": {
             "type": "string"
           },
+=======
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "productType": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "Signal",
+              "Trend",
+              "Template"
+            ]
+          },
+          "features": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          },
+          "setup": {
+            "type": "string"
+          },
+          "exchange": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "recommendedBalance": {
+            "type": "string"
+          },
+          "riskLevel": {
+            "type": "string"
+          },
+          "automated": {
+            "type": "boolean"
+          },
+          "cryptoHopperLink": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
           "published_at": {
             "type": "string",
             "format": "date-time"
           }
         }
       },
+<<<<<<< HEAD
       "NewNewsletter-contact": {
         "properties": {
           "email": {
             "type": "string"
           },
+=======
+      "NewProduct": {
+        "required": [
+          "slug"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "productType": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "Signal",
+              "Trend",
+              "Template"
+            ]
+          },
+          "features": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          },
+          "setup": {
+            "type": "string"
+          },
+          "exchange": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "recommendedBalance": {
+            "type": "string"
+          },
+          "riskLevel": {
+            "type": "string"
+          },
+          "automated": {
+            "type": "boolean"
+          },
+          "cryptoHopperLink": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+>>>>>>> 299244851dd8873e47a0a00f5aa53fbdaeab578c
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -8341,7 +8525,9 @@
                 "publishedAt",
                 "status",
                 "slug",
+                "category",
                 "image",
+                "author",
                 "premium"
               ],
               "properties": {
@@ -8377,9 +8563,6 @@
                 },
                 "premium": {
                   "type": "boolean"
-                },
-                "teaserText": {
-                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -8734,6 +8917,9 @@
     },
     {
       "name": "Homepage"
+    },
+    {
+      "name": "Product"
     },
     {
       "name": "Version"

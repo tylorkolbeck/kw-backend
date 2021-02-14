@@ -603,7 +603,9 @@
                 "publishedAt",
                 "status",
                 "slug",
+                "category",
                 "image",
+                "author",
                 "premium"
               ],
               "properties": {
@@ -639,9 +641,6 @@
                 },
                 "premium": {
                   "type": "boolean"
-                },
-                "teaserText": {
-                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
