@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/newsletter-contacts/:id",
+      "path": "/newsletter-contacts/:email",
       "handler": "newsletter-contact.findOne",
       "config": {
         "policies": []
