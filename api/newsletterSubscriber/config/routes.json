@@ -5,7 +5,7 @@
       "path": "/newsletter",
       "handler": "newsletterSubscriber.index",
       "config": {
-        "policies": []
+        "policies": ["plugins::users-permissions.ratelimit"]
       }
     }
   ]

@@ -5,7 +5,7 @@ intents.add("GUILD_MEMBERS");
 const client = new Client({ ws: { intents: intents } });
 
 client.once("ready", async () => {
-  console.log("Bot standing by for your command...");
+  console.log("Bot standing by for your commands...");
 });
 
 client.login(process.env.DISCORD_TOKEN);

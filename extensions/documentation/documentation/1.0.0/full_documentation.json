@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/14/2021 8:49:02 PM"
+    "x-generation-date": "02/15/2021 11:02:14 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8657,8 +8657,8 @@
             "items": {
               "required": [
                 "id",
-                "username",
-                "email"
+                "email",
+                "subscribedToNewsletter"
               ],
               "properties": {
                 "id": {
@@ -8683,6 +8683,9 @@
                   "type": "string"
                 },
                 "confirmed": {
+                  "type": "boolean"
+                },
+                "subscribedToNewsletter": {
                   "type": "boolean"
                 },
                 "blocked": {
@@ -8743,8 +8746,8 @@
       "UsersPermissionsUser": {
         "required": [
           "id",
-          "username",
-          "email"
+          "email",
+          "subscribedToNewsletter"
         ],
         "properties": {
           "id": {
@@ -8764,6 +8767,9 @@
           "confirmed": {
             "type": "boolean",
             "default": false
+          },
+          "subscribedToNewsletter": {
+            "type": "boolean"
           },
           "blocked": {
             "type": "boolean",
@@ -8815,8 +8821,8 @@
       },
       "NewUsersPermissionsUser": {
         "required": [
-          "username",
-          "email"
+          "email",
+          "subscribedToNewsletter"
         ],
         "properties": {
           "username": {
@@ -8844,6 +8850,9 @@
           "confirmed": {
             "type": "boolean",
             "default": false
+          },
+          "subscribedToNewsletter": {
+            "type": "boolean"
           },
           "blocked": {
             "type": "boolean",
