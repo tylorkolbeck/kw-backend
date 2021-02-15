@@ -1187,8 +1187,8 @@
       "UsersPermissionsUser": {
         "required": [
           "id",
-          "username",
-          "email"
+          "email",
+          "subscribedToNewsletter"
         ],
         "properties": {
           "id": {
@@ -1208,6 +1208,9 @@
           "confirmed": {
             "type": "boolean",
             "default": false
+          },
+          "subscribedToNewsletter": {
+            "type": "boolean"
           },
           "blocked": {
             "type": "boolean",
@@ -1259,8 +1262,8 @@
       },
       "NewUsersPermissionsUser": {
         "required": [
-          "username",
-          "email"
+          "email",
+          "subscribedToNewsletter"
         ],
         "properties": {
           "username": {
@@ -1288,6 +1291,9 @@
           "confirmed": {
             "type": "boolean",
             "default": false
+          },
+          "subscribedToNewsletter": {
+            "type": "boolean"
           },
           "blocked": {
             "type": "boolean",

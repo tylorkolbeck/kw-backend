@@ -527,8 +527,8 @@
             "items": {
               "required": [
                 "id",
-                "username",
-                "email"
+                "email",
+                "subscribedToNewsletter"
               ],
               "properties": {
                 "id": {
@@ -553,6 +553,9 @@
                   "type": "string"
                 },
                 "confirmed": {
+                  "type": "boolean"
+                },
+                "subscribedToNewsletter": {
                   "type": "boolean"
                 },
                 "blocked": {

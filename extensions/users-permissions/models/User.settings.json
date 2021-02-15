@@ -15,7 +15,7 @@
       "minLength": 3,
       "unique": true,
       "configurable": false,
-      "required": true
+      "required": false
     },
     "email": {
       "type": "email",
@@ -47,6 +47,11 @@
       "type": "boolean",
       "default": false,
       "configurable": false
+    },
+    "subscribedToNewsletter": {
+      "type": "boolean",
+      "configurable": false,
+      "required": true
     },
     "blocked": {
       "type": "boolean",
