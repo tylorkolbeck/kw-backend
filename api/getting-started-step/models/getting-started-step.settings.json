@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "getting_started_steps",
+  "info": {
+    "name": "Getting Started Step",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "stepDescription": {
+      "type": "string",
+      "required": true
+    },
+    "instructions": {
+      "type": "richtext"
+    },
+    "order": {
+      "required": true,
+      "type": "integer"
+    },
+    "externalLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.external-link"
+    }
+  }
+}

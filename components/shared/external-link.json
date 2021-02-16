@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_external_links",
+  "info": {
+    "name": "externalLink",
+    "icon": "file-export"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "displayText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
