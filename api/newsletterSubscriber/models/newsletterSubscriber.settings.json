@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletterSubscribers",
+  "info": {
+    "name": "Newsletter Subscriber",
+    "description": "Newsletter subscription emails"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "validations": {
+        "max": 100
+      },
+      "unique": true
+    }
+  }
+}

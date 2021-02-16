@@ -66,7 +66,7 @@ module.exports = {
           "This was recently published and it needs to be pushed out"
         );
         strapi.services.bot.sendBlogPostToDiscord(
-          "general",
+          "announcements",
           `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
         );
       }
