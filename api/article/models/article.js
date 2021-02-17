@@ -2,6 +2,8 @@
 const axios = require("axios").default;
 const { DateTime } = require("luxon");
 
+let http = require("http");
+
 /**
  * Read the documentation (https://strapi.io/documentation/v3.x/concepts/models.html#lifecycle-hooks)
  * to customize this model
@@ -66,11 +68,27 @@ module.exports = {
           "This was recently published and it needs to be pushed out"
         );
         setTimeout(() => {
-          strapi.services.bot.sendBlogPostToDiscord(
-            "announcements",
-            `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
-          );
-        }, 5 * 60 * 1000);
+          // strapi.services.bot.sendBlogPostToDiscord(
+          //   "announcements",
+          //   `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
+          // );
+          // Hit the new page to make sure that the front end server builds it then post to the discord channel
+          axios
+            .get(
+              `https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
+            )
+            .then(() => {
+              setTimeout(() => {
+                strapi.services.bot.sendBlogPostToDiscord(
+                  "announcements",
+                  `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
+                );
+              }, 40000);
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+        }, 40000);
       }
     },
   },
