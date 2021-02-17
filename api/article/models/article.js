@@ -65,10 +65,12 @@ module.exports = {
         console.log(
           "This was recently published and it needs to be pushed out"
         );
-        strapi.services.bot.sendBlogPostToDiscord(
-          "announcements",
-          `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
-        );
+        setTimeout(() => {
+          strapi.services.bot.sendBlogPostToDiscord(
+            "announcements",
+            `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
+          );
+        }, 5 * 60 * 1000);
       }
     },
   },
