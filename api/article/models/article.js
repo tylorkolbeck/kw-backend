@@ -64,31 +64,19 @@ module.exports = {
       }
 
       if (secondsSincePublished < 10) {
-        console.log(
-          "This was recently published and it needs to be pushed out"
-        );
-        setTimeout(() => {
-          // strapi.services.bot.sendBlogPostToDiscord(
-          //   "announcements",
-          //   `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
-          // );
-          // Hit the new page to make sure that the front end server builds it then post to the discord channel
-          axios
-            .get(
-              `https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
-            )
-            .then(() => {
-              setTimeout(() => {
-                strapi.services.bot.sendBlogPostToDiscord(
-                  "announcements",
-                  `Checkout the new article just posted to the website. \n https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`
-                );
-              }, 40000);
-            })
-            .catch((error) => {
-              console.log(error);
+        try {
+          setTimeout(() => {
+            strapi.services.bot.sendBlogPostToDiscord("announcements", {
+              title: entry.title,
+              description: entry.description,
+              url: `https://kw-frontend-abs5o.ondigitalocean.app/article/${entry.slug}`,
+              author: `Checkout the new post on our website by ${entry.author.name}`,
+              thumbnail: entry.image.formats.thumbnail.url,
             });
-        }, 40000);
+          }, 60000);
+        } catch (err) {
+          console.log(err);
+        }
       }
     },
   },

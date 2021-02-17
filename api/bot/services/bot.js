@@ -1,5 +1,5 @@
 const client = require("../../../config/discord/client");
-const GUILD_ID = process.env.DISCORD_GUILD_ID;
+const { MessageEmbed } = require("discord.js");
 const DISCORD_GENERAL_CHANNEL_ID = process.env.DISCORD_GENERAL_CHANNEL_ID;
 
 module.exports = {
@@ -22,23 +22,27 @@ module.exports = {
   },
 
   sendBlogPostToDiscord: async (channelName, message) => {
-    // if (!message) {
-    //   return "Please include a message to send to the channel"
-    // }
-    // if (!channelName) {
-    //   return "Please include the name of the channel that you like to message"
-    // }
+    if (!message) {
+      return "Please include a message to send to the channel";
+    }
+    if (!channelName) {
+      return "Please include the name of the channel that you like to message";
+    }
 
     try {
       const sendChannel = await client.channels.cache.find(
         (channel) => channel.name === channelName
       );
 
-      if (!sendChannel) {
-        return `Channel ${channelName} was not found on your server`;
-      }
+      const embed = new MessageEmbed()
+        .setColor("#0d46a0")
+        .setTitle(message.title)
+        .setURL(message.url)
+        .setAuthor(message.author)
+        .setDescription(message.description)
+        .setImage(message.thumbnail);
 
-      sendChannel.send(message);
+      sendChannel.send(embed);
       return "sent";
     } catch (error) {
       console.log(error);
