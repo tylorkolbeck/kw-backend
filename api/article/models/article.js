@@ -23,23 +23,16 @@ module.exports = {
       if (secondsSincePublished < 10) {
         try {
           setTimeout(() => {
-            axios
-              .get(`${process.env.FRONT_END_URL}/article/${entry.slug}`)
-              .then((res) => {
-                strapi.services.bot.sendBlogPostToDiscord(
-                  process.env.DISCORD_ANNOUNCEMENT_CHANNEL_ID,
-                  {
-                    title: entry.title,
-                    description: entry.description,
-                    url: `${process.env.FRONT_END_URL}/article/${entry.slug}`,
-                    author: `Checkout the new post on our website by ${entry.author.name}`,
-                    thumbnail: entry.image.formats.thumbnail.url,
-                  }
-                );
-              })
-              .catch(() => {
-                console.log("Error getting new blog post");
-              });
+            strapi.services.bot.sendBlogPostToDiscord(
+              process.env.DISCORD_ANNOUNCEMENT_CHANNEL_ID,
+              {
+                title: entry.title,
+                description: entry.description,
+                url: `${process.env.FRONT_END_URL}/article/${entry.slug}`,
+                author: `Checkout the new post on our website by ${entry.author.name}`,
+                thumbnail: entry.image.formats.thumbnail.url,
+              }
+            );
           }, 60000);
         } catch (err) {
           console.log(err);
