@@ -1,37 +1,37 @@
 const client = require("../../../config/discord/client");
 const { MessageEmbed } = require("discord.js");
-const DISCORD_GENERAL_CHANNEL_ID = process.env.DISCORD_GENERAL_CHANNEL_ID;
 
 module.exports = {
-  generateInviteLink: async () => {
-    try {
-      const channel = await client.channels.fetch(DISCORD_GENERAL_CHANNEL_ID);
+  // KEEP FOR FUTURE FEATURES
+  // generateInviteLink: async () => {
+  //   try {
+  //     const channel = await client.channels.fetch(DISCORD_GENERAL_CHANNEL_ID);
 
-      return channel
-        .createInvite({ unique: true, maxUses: 1 })
-        .then((invite) => {
-          return JSON.stringify(invite);
-        })
-        .catch((error) => {
-          return error;
-        });
-    } catch (error) {
-      console.log(error);
-      return error;
-    }
-  },
+  //     return channel
+  //       .createInvite({ unique: true, maxUses: 1 })
+  //       .then((invite) => {
+  //         return JSON.stringify(invite);
+  //       })
+  //       .catch((error) => {
+  //         return error;
+  //       });
+  //   } catch (error) {
+  //     console.log(error);
+  //     return error;
+  //   }
+  // },
 
-  sendBlogPostToDiscord: async (channelName, message) => {
+  sendBlogPostToDiscord: async (channelId, message) => {
     if (!message) {
       return "Please include a message to send to the channel";
     }
-    if (!channelName) {
-      return "Please include the name of the channel that you like to message";
+    if (!channelId) {
+      return "Please include the id of the channel that you like to send a message to";
     }
 
     try {
       const sendChannel = await client.channels.cache.find(
-        (channel) => channel.name === channelName
+        (channel) => channel.id === channelId
       );
 
       const embed = new MessageEmbed()
@@ -50,6 +50,7 @@ module.exports = {
     }
   },
 
+  // KEEP FOR FUTURE FEATURES
   // sendDiscordMessage: async (ctx) => {
   //   const { channelName, message } = req.body;
 
