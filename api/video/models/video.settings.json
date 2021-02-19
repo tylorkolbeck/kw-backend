@@ -17,17 +17,6 @@
     "description": {
       "type": "text"
     },
-    "video": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -40,6 +29,20 @@
     },
     "category": {
       "model": "category"
+    },
+    "video": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

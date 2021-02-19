@@ -21,7 +21,7 @@ module.exports = {
     if (entity.premium) {
       if (ctx.user) {
         const { premiumUntil } = ctx.state.user;
-        if (premiumCurrent(premiumUntil)) {
+        if (strapi.services.global.premiumCurrent(premiumUntil)) {
           return sanitizeEntity(entity, { model: strapi.models.video });
         }
       } else {
@@ -33,29 +33,4 @@ module.exports = {
 
     return sanitizeEntity(entity, { model: strapi.models.video });
   },
-};
-
-/**
- *
- * @param {Date} premiumDate
- *
- * Checks if the users premium until date is greater then
- * todays date. If the users premium subscription is not current
- * then return false
- *
- * @returns {bool}
- */
-const premiumCurrent = function (premiumDate) {
-  if (!premiumDate) {
-    return false;
-  }
-
-  let today = new Date();
-  let goodUntil = new Date(premiumDate);
-
-  if (today.setHours(0, 0, 0, 0) <= goodUntil.setHours(0, 0, 0, 0)) {
-    return true;
-  } else {
-    return false;
-  }
 };

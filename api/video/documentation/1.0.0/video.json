@@ -530,7 +530,50 @@
           "description": {
             "type": "string"
           },
+          "slug": {
+            "type": "uid"
+          },
+          "premium": {
+            "type": "boolean"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "category": {
+            "required": [
+              "id",
+              "name",
+              "slug"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "uid"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "video": {
+            "type": "string"
+          },
+          "image": {
             "required": [
               "id",
               "name",
@@ -597,46 +640,6 @@
               }
             }
           },
-          "slug": {
-            "type": "uid"
-          },
-          "premium": {
-            "type": "boolean"
-          },
-          "publishedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "category": {
-            "required": [
-              "id",
-              "name",
-              "slug"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "slug": {
-                "type": "uid"
-              },
-              "articles": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -662,6 +665,9 @@
             "format": "date-time"
           },
           "category": {
+            "type": "string"
+          },
+          "video": {
             "type": "string"
           },
           "published_at": {
