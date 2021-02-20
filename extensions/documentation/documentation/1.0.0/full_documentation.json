@@ -95,9 +95,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "parameters": [
           {
             "name": "_limit",
@@ -283,9 +281,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -350,9 +346,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "parameters": []
       }
     },
@@ -403,9 +397,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "parameters": [
           {
             "name": "slug",
@@ -467,9 +459,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -541,9 +531,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Article"
-        ],
+        "tags": ["Article"],
         "parameters": [
           {
             "name": "id",
@@ -609,9 +597,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Bot"
-        ],
+        "tags": ["Bot"],
         "parameters": []
       }
     },
@@ -666,9 +652,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel-timer"
-        ],
+        "tags": ["Carousel-timer"],
         "parameters": [
           {
             "name": "_limit",
@@ -858,9 +842,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel-timer"
-        ],
+        "tags": ["Carousel-timer"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -921,9 +903,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel-timer"
-        ],
+        "tags": ["Carousel-timer"],
         "parameters": []
       }
     },
@@ -977,9 +957,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "parameters": [
           {
             "name": "_limit",
@@ -1165,9 +1143,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1232,9 +1208,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "parameters": []
       }
     },
@@ -1285,9 +1259,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "parameters": [
           {
             "name": "id",
@@ -1347,9 +1319,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1421,9 +1391,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Carousel"
-        ],
+        "tags": ["Carousel"],
         "parameters": [
           {
             "name": "id",
@@ -1488,9 +1456,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "parameters": [
           {
             "name": "_limit",
@@ -1676,9 +1642,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1743,9 +1707,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "parameters": []
       }
     },
@@ -1796,9 +1758,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "parameters": [
           {
             "name": "slug",
@@ -1860,9 +1820,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1934,9 +1892,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Category"
-        ],
+        "tags": ["Category"],
         "parameters": [
           {
             "name": "id",
@@ -2002,9 +1958,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "parameters": [
           {
             "name": "_limit",
@@ -2194,9 +2148,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2261,9 +2213,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "parameters": []
       }
     },
@@ -2318,9 +2268,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "parameters": [
           {
             "name": "id",
@@ -2384,9 +2332,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2458,9 +2404,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Change-log"
-        ],
+        "tags": ["Change-log"],
         "parameters": [
           {
             "name": "id",
@@ -2526,9 +2470,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "parameters": [
           {
             "name": "_limit",
@@ -2718,9 +2660,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2785,9 +2725,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "parameters": []
       }
     },
@@ -2842,9 +2780,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "parameters": [
           {
             "name": "id",
@@ -2908,9 +2844,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2982,9 +2916,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Fa-qs"
-        ],
+        "tags": ["Fa-qs"],
         "parameters": [
           {
             "name": "id",
@@ -3050,9 +2982,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "parameters": [
           {
             "name": "_limit",
@@ -3242,9 +3172,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3309,9 +3237,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "parameters": []
       }
     },
@@ -3366,9 +3292,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "parameters": [
           {
             "name": "id",
@@ -3432,9 +3356,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3506,9 +3428,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Getting-started-step"
-        ],
+        "tags": ["Getting-started-step"],
         "parameters": [
           {
             "name": "id",
@@ -3573,9 +3493,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Global"
-        ],
+        "tags": ["Global"],
         "parameters": [
           {
             "name": "_limit",
@@ -3761,9 +3679,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Global"
-        ],
+        "tags": ["Global"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3824,9 +3740,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Global"
-        ],
+        "tags": ["Global"],
         "parameters": []
       }
     },
@@ -3880,9 +3794,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Homepage"
-        ],
+        "tags": ["Homepage"],
         "parameters": [
           {
             "name": "_limit",
@@ -4068,9 +3980,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Homepage"
-        ],
+        "tags": ["Homepage"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4131,9 +4041,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Homepage"
-        ],
+        "tags": ["Homepage"],
         "parameters": []
       }
     },
@@ -4187,9 +4095,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Link"
-        ],
+        "tags": ["Link"],
         "parameters": [
           {
             "name": "_limit",
@@ -4375,9 +4281,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Link"
-        ],
+        "tags": ["Link"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4438,9 +4342,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Link"
-        ],
+        "tags": ["Link"],
         "parameters": []
       }
     },
@@ -4495,9 +4397,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Newslettersubscriber"
-        ],
+        "tags": ["Newslettersubscriber"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4565,9 +4465,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "parameters": [
           {
             "name": "_limit",
@@ -4753,9 +4651,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4820,9 +4716,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "parameters": []
       }
     },
@@ -4873,9 +4767,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "parameters": [
           {
             "name": "slug",
@@ -4937,9 +4829,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5011,9 +4901,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "parameters": [
           {
             "name": "id",
@@ -5078,9 +4966,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Version"
-        ],
+        "tags": ["Version"],
         "parameters": [
           {
             "name": "_limit",
@@ -5266,9 +5152,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Version"
-        ],
+        "tags": ["Version"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5329,10 +5213,509 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Version"
-        ],
+        "tags": ["Version"],
         "parameters": []
+      }
+    },
+    "/videos": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Video"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "post": {
+        "deprecated": false,
+        "description": "Create a new record",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Video"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewVideo"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/videos/count": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "parameters": []
+      }
+    },
+    "/videos/{slug}": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Video"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/videos/{id}": {
+      "put": {
+        "deprecated": false,
+        "description": "Update a record",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Video"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewVideo"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a record",
+        "responses": {
+          "200": {
+            "description": "deletes a single record based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": ["Video"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
       }
     },
     "/writers": {
@@ -5385,9 +5768,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "parameters": [
           {
             "name": "_limit",
@@ -5573,9 +5954,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5640,9 +6019,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "parameters": []
       }
     },
@@ -5693,9 +6070,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "parameters": [
           {
             "name": "id",
@@ -5755,9 +6130,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5829,9 +6202,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Writer"
-        ],
+        "tags": ["Writer"],
         "parameters": [
           {
             "name": "id",
@@ -5897,9 +6268,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Email - Email"
-        ],
+        "tags": ["Email - Email"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5968,9 +6337,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6039,9 +6406,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": []
       }
     },
@@ -6096,9 +6461,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": []
       }
     },
@@ -6153,9 +6516,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -6219,9 +6580,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -6287,9 +6646,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -6351,9 +6708,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - Role"
-        ],
+        "tags": ["UsersPermissions - Role"],
         "parameters": [
           {
             "name": "id",
@@ -6418,9 +6773,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - Role"
-        ],
+        "tags": ["UsersPermissions - Role"],
         "parameters": [
           {
             "name": "_limit",
@@ -6606,9 +6959,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - Role"
-        ],
+        "tags": ["UsersPermissions - Role"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6669,9 +7020,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - Role"
-        ],
+        "tags": ["UsersPermissions - Role"],
         "parameters": [
           {
             "name": "role",
@@ -6746,9 +7095,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - Role"
-        ],
+        "tags": ["UsersPermissions - Role"],
         "parameters": [
           {
             "name": "role",
@@ -6813,9 +7160,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -7017,9 +7362,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": []
       }
     },
@@ -7074,9 +7417,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7141,9 +7482,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7208,9 +7547,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "provider",
@@ -7276,9 +7613,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7347,9 +7682,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7418,9 +7751,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": []
       }
     },
@@ -7475,9 +7806,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7545,9 +7874,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "_limit",
@@ -7735,9 +8062,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": []
       }
     },
@@ -7788,9 +8113,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -7850,9 +8173,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -7927,9 +8248,7 @@
           }
         },
         "summary": "",
-        "tags": [
-          "UsersPermissions - User"
-        ],
+        "tags": ["UsersPermissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -7981,20 +8300,13 @@
           "status": {
             "type": "string",
             "default": "draft",
-            "enum": [
-              "draft",
-              "published"
-            ]
+            "enum": ["draft", "published"]
           },
           "slug": {
             "type": "uid"
           },
           "category": {
-            "required": [
-              "id",
-              "name",
-              "slug"
-            ],
+            "required": ["id", "name", "slug"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8087,9 +8399,7 @@
             }
           },
           "author": {
-            "required": [
-              "id"
-            ],
+            "required": ["id"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8156,10 +8466,7 @@
           "status": {
             "type": "string",
             "default": "draft",
-            "enum": [
-              "draft",
-              "published"
-            ]
+            "enum": ["draft", "published"]
           },
           "slug": {
             "type": "uid"
@@ -8187,9 +8494,7 @@
         }
       },
       "Carousel-timer": {
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "properties": {
           "id": {
             "type": "string"
@@ -8213,9 +8518,7 @@
         }
       },
       "Carousel": {
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "properties": {
           "id": {
             "type": "string"
@@ -8329,11 +8632,7 @@
         }
       },
       "Category": {
-        "required": [
-          "id",
-          "name",
-          "slug"
-        ],
+        "required": ["id", "name", "slug"],
         "properties": {
           "id": {
             "type": "string"
@@ -8409,10 +8708,7 @@
         }
       },
       "NewCategory": {
-        "required": [
-          "name",
-          "slug"
-        ],
+        "required": ["name", "slug"],
         "properties": {
           "name": {
             "type": "string"
@@ -8435,9 +8731,7 @@
         }
       },
       "Change-log": {
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "properties": {
           "id": {
             "type": "string"
@@ -8489,11 +8783,7 @@
         }
       },
       "Fa-qs": {
-        "required": [
-          "id",
-          "question",
-          "answer"
-        ],
+        "required": ["id", "question", "answer"],
         "properties": {
           "id": {
             "type": "string"
@@ -8505,11 +8795,7 @@
             "type": "string"
           },
           "category": {
-            "required": [
-              "id",
-              "name",
-              "slug"
-            ],
+            "required": ["id", "name", "slug"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8541,10 +8827,7 @@
         }
       },
       "NewFa-qs": {
-        "required": [
-          "question",
-          "answer"
-        ],
+        "required": ["question", "answer"],
         "properties": {
           "question": {
             "type": "string"
@@ -8568,11 +8851,7 @@
         }
       },
       "Getting-started-step": {
-        "required": [
-          "id",
-          "stepDescription",
-          "order"
-        ],
+        "required": ["id", "stepDescription", "order"],
         "properties": {
           "id": {
             "type": "string"
@@ -8588,11 +8867,7 @@
           },
           "externalLink": {
             "type": "object",
-            "required": [
-              "id",
-              "url",
-              "displayText"
-            ],
+            "required": ["id", "url", "displayText"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8608,10 +8883,7 @@
         }
       },
       "NewGetting-started-step": {
-        "required": [
-          "stepDescription",
-          "order"
-        ],
+        "required": ["stepDescription", "order"],
         "properties": {
           "stepDescription": {
             "type": "string"
@@ -8624,11 +8896,7 @@
           },
           "externalLink": {
             "type": "object",
-            "required": [
-              "id",
-              "url",
-              "displayText"
-            ],
+            "required": ["id", "url", "displayText"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8650,11 +8918,7 @@
         }
       },
       "Global": {
-        "required": [
-          "id",
-          "siteName",
-          "defaultSeo"
-        ],
+        "required": ["id", "siteName", "defaultSeo"],
         "properties": {
           "id": {
             "type": "string"
@@ -8731,11 +8995,7 @@
           },
           "defaultSeo": {
             "type": "object",
-            "required": [
-              "id",
-              "metaTitle",
-              "metaDescription"
-            ],
+            "required": ["id", "metaTitle", "metaDescription"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8818,21 +9078,14 @@
         }
       },
       "NewGlobal": {
-        "required": [
-          "siteName",
-          "defaultSeo"
-        ],
+        "required": ["siteName", "defaultSeo"],
         "properties": {
           "siteName": {
             "type": "string"
           },
           "defaultSeo": {
             "type": "object",
-            "required": [
-              "id",
-              "metaTitle",
-              "metaDescription"
-            ],
+            "required": ["id", "metaTitle", "metaDescription"],
             "properties": {
               "id": {
                 "type": "string"
@@ -8921,21 +9174,14 @@
         }
       },
       "Homepage": {
-        "required": [
-          "id",
-          "hero"
-        ],
+        "required": ["id", "hero"],
         "properties": {
           "id": {
             "type": "string"
           },
           "seo": {
             "type": "object",
-            "required": [
-              "id",
-              "metaTitle",
-              "metaDescription"
-            ],
+            "required": ["id", "metaTitle", "metaDescription"],
             "properties": {
               "id": {
                 "type": "string"
@@ -9017,10 +9263,7 @@
           },
           "hero": {
             "type": "object",
-            "required": [
-              "id",
-              "title"
-            ],
+            "required": ["id", "title"],
             "properties": {
               "id": {
                 "type": "string"
@@ -9033,17 +9276,11 @@
         }
       },
       "NewHomepage": {
-        "required": [
-          "hero"
-        ],
+        "required": ["hero"],
         "properties": {
           "seo": {
             "type": "object",
-            "required": [
-              "id",
-              "metaTitle",
-              "metaDescription"
-            ],
+            "required": ["id", "metaTitle", "metaDescription"],
             "properties": {
               "id": {
                 "type": "string"
@@ -9125,10 +9362,7 @@
           },
           "hero": {
             "type": "object",
-            "required": [
-              "id",
-              "title"
-            ],
+            "required": ["id", "title"],
             "properties": {
               "id": {
                 "type": "string"
@@ -9147,11 +9381,7 @@
         }
       },
       "Link": {
-        "required": [
-          "id",
-          "url",
-          "displayText"
-        ],
+        "required": ["id", "url", "displayText"],
         "properties": {
           "id": {
             "type": "string"
@@ -9165,10 +9395,7 @@
         }
       },
       "NewLink": {
-        "required": [
-          "url",
-          "displayText"
-        ],
+        "required": ["url", "displayText"],
         "properties": {
           "url": {
             "type": "string"
@@ -9185,10 +9412,7 @@
         }
       },
       "Newslettersubscriber": {
-        "required": [
-          "id",
-          "email"
-        ],
+        "required": ["id", "email"],
         "properties": {
           "id": {
             "type": "string"
@@ -9199,9 +9423,7 @@
         }
       },
       "NewNewslettersubscriber": {
-        "required": [
-          "email"
-        ],
+        "required": ["email"],
         "properties": {
           "email": {
             "type": "string"
@@ -9215,10 +9437,7 @@
         }
       },
       "Product": {
-        "required": [
-          "id",
-          "slug"
-        ],
+        "required": ["id", "slug"],
         "properties": {
           "id": {
             "type": "string"
@@ -9231,12 +9450,7 @@
           },
           "productType": {
             "type": "string",
-            "enum": [
-              "Strategy",
-              "Signal",
-              "Trend",
-              "Template"
-            ]
+            "enum": ["Strategy", "Signal", "Trend", "Template"]
           },
           "features": {
             "type": "string"
@@ -9275,9 +9489,7 @@
         }
       },
       "NewProduct": {
-        "required": [
-          "slug"
-        ],
+        "required": ["slug"],
         "properties": {
           "name": {
             "type": "string"
@@ -9287,12 +9499,7 @@
           },
           "productType": {
             "type": "string",
-            "enum": [
-              "Strategy",
-              "Signal",
-              "Trend",
-              "Template"
-            ]
+            "enum": ["Strategy", "Signal", "Trend", "Template"]
           },
           "features": {
             "type": "string"
@@ -9337,9 +9544,7 @@
         }
       },
       "Version": {
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "properties": {
           "id": {
             "type": "string"
@@ -9376,10 +9581,168 @@
           }
         }
       },
+      "Video": {
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "premium": {
+            "type": "boolean"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "category": {
+            "required": ["id", "name", "slug"],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "uid"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "video": {
+            "type": "string"
+          },
+          "image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "NewVideo": {
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "premium": {
+            "type": "boolean"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "category": {
+            "type": "string"
+          },
+          "video": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
       "Writer": {
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "properties": {
           "id": {
             "type": "string"
@@ -9544,10 +9907,7 @@
         }
       },
       "UsersPermissionsRole": {
-        "required": [
-          "id",
-          "name"
-        ],
+        "required": ["id", "name"],
         "properties": {
           "id": {
             "type": "string"
@@ -9565,13 +9925,7 @@
           "permissions": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "type",
-                "controller",
-                "action",
-                "enabled"
-              ],
+              "required": ["id", "type", "controller", "action", "enabled"],
               "properties": {
                 "id": {
                   "type": "string"
@@ -9606,11 +9960,7 @@
           "users": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "email",
-                "subscribedToNewsletter"
-              ],
+              "required": ["id", "email", "subscribedToNewsletter"],
               "properties": {
                 "id": {
                   "type": "string"
@@ -9660,9 +10010,7 @@
         }
       },
       "NewUsersPermissionsRole": {
-        "required": [
-          "name"
-        ],
+        "required": ["name"],
         "properties": {
           "name": {
             "type": "string",
@@ -9695,11 +10043,7 @@
         }
       },
       "UsersPermissionsUser": {
-        "required": [
-          "id",
-          "email",
-          "subscribedToNewsletter"
-        ],
+        "required": ["id", "email", "subscribedToNewsletter"],
         "properties": {
           "id": {
             "type": "string"
@@ -9727,10 +10071,7 @@
             "default": false
           },
           "role": {
-            "required": [
-              "id",
-              "name"
-            ],
+            "required": ["id", "name"],
             "properties": {
               "id": {
                 "type": "string"
@@ -9771,10 +10112,7 @@
         }
       },
       "NewUsersPermissionsUser": {
-        "required": [
-          "email",
-          "subscribedToNewsletter"
-        ],
+        "required": ["email", "subscribedToNewsletter"],
         "properties": {
           "username": {
             "type": "string",
@@ -9825,10 +10163,7 @@
         }
       },
       "Error": {
-        "required": [
-          "code",
-          "message"
-        ],
+        "required": ["code", "message"],
         "properties": {
           "code": {
             "type": "integer",
@@ -9878,6 +10213,9 @@
     },
     {
       "name": "Version"
+    },
+    {
+      "name": "Video"
     },
     {
       "name": "Writer"
