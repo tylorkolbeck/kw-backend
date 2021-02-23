@@ -11,6 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "oembed": {
+      "type": "oembed",
+      "columnType": "longtext"
+    },
     "title": {
       "type": "string"
     },
@@ -21,27 +25,14 @@
       "type": "uid",
       "targetField": "title"
     },
-    "premium": {
-      "type": "boolean"
-    },
     "publishedAt": {
       "type": "datetime"
     },
     "category": {
       "model": "category"
     },
-    "video": {
-      "type": "text"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
+    "content": {
+      "type": "richtext",
       "required": false
     }
   }

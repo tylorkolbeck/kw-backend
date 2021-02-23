@@ -524,6 +524,9 @@
           "id": {
             "type": "string"
           },
+          "oembed": {
+            "type": "oembed"
+          },
           "title": {
             "type": "string"
           },
@@ -532,9 +535,6 @@
           },
           "slug": {
             "type": "uid"
-          },
-          "premium": {
-            "type": "boolean"
           },
           "publishedAt": {
             "type": "string",
@@ -570,75 +570,8 @@
               }
             }
           },
-          "video": {
+          "content": {
             "type": "string"
-          },
-          "image": {
-            "required": [
-              "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "alternativeText": {
-                "type": "string"
-              },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
-                "type": "number"
-              },
-              "url": {
-                "type": "string"
-              },
-              "previewUrl": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "provider_metadata": {
-                "type": "object"
-              },
-              "related": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           },
           "published_at": {
             "type": "string",
@@ -648,6 +581,9 @@
       },
       "NewVideo": {
         "properties": {
+          "oembed": {
+            "type": "oembed"
+          },
           "title": {
             "type": "string"
           },
@@ -657,9 +593,6 @@
           "slug": {
             "type": "uid"
           },
-          "premium": {
-            "type": "boolean"
-          },
           "publishedAt": {
             "type": "string",
             "format": "date-time"
@@ -667,7 +600,7 @@
           "category": {
             "type": "string"
           },
-          "video": {
+          "content": {
             "type": "string"
           },
           "published_at": {
