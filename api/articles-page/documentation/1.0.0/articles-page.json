@@ -1,18 +1,19 @@
 {
   "paths": {
-    "/products": {
+    "/articles-page": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the articles-page's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve articles-page document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -51,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Product"
+          "Articles-page"
         ],
         "parameters": [
           {
@@ -192,81 +193,18 @@
           }
         ]
       },
-      "post": {
+      "put": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Update a single articles-page record",
         "responses": {
           "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Product"
-        ],
-        "requestBody": {
-          "description": "",
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewProduct"
-              }
-            }
-          }
-        }
-      }
-    },
-    "/products/count": {
-      "get": {
-        "deprecated": false,
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response",
+            "description": "Retrieve articles-page document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "properties": {
-                    "count": {
-                      "type": "integer"
+                    "foo": {
+                      "type": "string"
                     }
                   }
                 }
@@ -306,124 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Product"
-        ],
-        "parameters": []
-      }
-    },
-    "/products/{slug}": {
-      "get": {
-        "deprecated": false,
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Product"
-        ],
-        "parameters": [
-          {
-            "name": "slug",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
-      }
-    },
-    "/products/{id}": {
-      "put": {
-        "deprecated": false,
-        "description": "Update a record",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Product"
+          "Articles-page"
         ],
         "requestBody": {
           "description": "",
@@ -431,30 +252,19 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewProduct"
+                "$ref": "#/components/schemas/NewArticles-page"
               }
             }
           }
         },
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
+        "parameters": []
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single articles-page record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single articles-page based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -497,73 +307,51 @@
         },
         "summary": "",
         "tags": [
-          "Product"
+          "Articles-page"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
+        "parameters": []
       }
     }
   },
   "components": {
     "schemas": {
-      "Product": {
+      "Articles-page": {
         "required": [
-          "id",
-          "slug"
+          "id"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "productType": {
-            "type": "string",
-            "enum": [
-              "Strategy",
-              "Signal",
-              "Trend",
-              "Template",
-              "AIConfiguration"
-            ]
-          },
-          "features": {
-            "type": "string"
-          },
-          "requirements": {
-            "type": "string"
-          },
-          "setup": {
-            "type": "string"
-          },
-          "exchange": {
-            "type": "string"
-          },
-          "price": {
-            "type": "number"
-          },
-          "cryptoHopperLink": {
-            "type": "string"
-          },
-          "slug": {
-            "type": "uid"
-          },
-          "productDetails": {
-            "type": "object"
+          "pageComponents": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.hero"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "Subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title"
+                  ]
+                }
+              ]
+            }
           },
           "published_at": {
             "type": "string",
@@ -571,50 +359,37 @@
           }
         }
       },
-      "NewProduct": {
-        "required": [
-          "slug"
-        ],
+      "NewArticles-page": {
         "properties": {
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "productType": {
-            "type": "string",
-            "enum": [
-              "Strategy",
-              "Signal",
-              "Trend",
-              "Template",
-              "AIConfiguration"
-            ]
-          },
-          "features": {
-            "type": "string"
-          },
-          "requirements": {
-            "type": "string"
-          },
-          "setup": {
-            "type": "string"
-          },
-          "exchange": {
-            "type": "string"
-          },
-          "price": {
-            "type": "number"
-          },
-          "cryptoHopperLink": {
-            "type": "string"
-          },
-          "slug": {
-            "type": "uid"
-          },
-          "productDetails": {
-            "type": "object"
+          "pageComponents": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.hero"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "Subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title"
+                  ]
+                }
+              ]
+            }
           },
           "published_at": {
             "type": "string",
@@ -630,9 +405,5 @@
       }
     }
   },
-  "tags": [
-    {
-      "name": "Product"
-    }
-  ]
+  "tags": []
 }

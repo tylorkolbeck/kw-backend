@@ -7,14 +7,14 @@ module.exports = ({ env }) => {
         secretAccessKey: process.env.AWS_ACCESS_SECRET,
         region: process.env.AWS_REGION,
         publicFiles: false,
-        baseUrl: 'https://duj27fxoqhxbb.cloudfront.net',
+        baseUrl: "https://duj27fxoqhxbb.cloudfront.net",
         params: {
           Bucket: process.env.AWS_BUCKET,
         },
       },
     },
 
-    email = {
+    email: {
       provider: process.env.EMAIL_PROVIDER,
       providerOptions: {
         host: process.env.EMAIL_SMTP_HOST,
@@ -28,6 +28,6 @@ module.exports = ({ env }) => {
         defaultFrom: process.env.EMAIL_ADDRESS_FROM,
         defaultReplyTo: process.env.EMAIL_ADDRESS_REPLY,
       },
-    }
+    },
   };
 };

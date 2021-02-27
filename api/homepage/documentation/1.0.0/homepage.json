@@ -417,6 +417,46 @@
               },
               "title": {
                 "type": "string"
+              },
+              "Subtitle": {
+                "type": "string"
+              }
+            }
+          },
+          "homepagePromo": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "headerText": {
+                "type": "string"
+              },
+              "subHeader": {
+                "type": "string"
+              },
+              "promo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "promoTitle": {
+                      "type": "string"
+                    },
+                    "promoDescription": {
+                      "type": "string"
+                    }
+                  }
+                }
               }
             }
           }
@@ -525,6 +565,46 @@
               },
               "title": {
                 "type": "string"
+              },
+              "Subtitle": {
+                "type": "string"
+              }
+            }
+          },
+          "homepagePromo": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "headerText": {
+                "type": "string"
+              },
+              "subHeader": {
+                "type": "string"
+              },
+              "promo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "promoTitle": {
+                      "type": "string"
+                    },
+                    "promoDescription": {
+                      "type": "string"
+                    }
+                  }
+                }
               }
             }
           },

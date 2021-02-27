@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Product"
+    "name": "Product",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,7 +23,8 @@
         "Strategy",
         "Signal",
         "Trend",
-        "Template"
+        "Template",
+        "AIConfiguration"
       ]
     },
     "features": {
@@ -40,15 +42,6 @@
     "price": {
       "type": "float"
     },
-    "recommendedBalance": {
-      "type": "string"
-    },
-    "riskLevel": {
-      "type": "string"
-    },
-    "automated": {
-      "type": "boolean"
-    },
     "cryptoHopperLink": {
       "type": "string"
     },
@@ -56,6 +49,9 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "productDetails": {
+      "type": "json"
     }
   }
 }

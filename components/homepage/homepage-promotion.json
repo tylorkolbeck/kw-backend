@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_homepage_promotions",
+  "info": {
+    "name": "homepage-promotion",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerText": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "promo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.promo"
+    }
+  }
+}

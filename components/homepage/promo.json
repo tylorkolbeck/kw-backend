@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_promos",
+  "info": {
+    "name": "promo",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "promoTitle": {
+      "type": "string"
+    },
+    "promoDescription": {
+      "type": "string"
+    }
+  }
+}

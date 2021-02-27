@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "articles_pages",
+  "info": {
+    "name": "Articles Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageComponents": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero"
+      ]
+    }
+  }
+}
