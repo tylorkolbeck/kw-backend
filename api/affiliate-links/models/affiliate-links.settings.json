@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "affiliate_links",
+  "info": {
+    "name": "Affiliate links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.affiliate-links"
+    }
+  }
+}

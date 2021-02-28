@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_affiliate_links",
+  "info": {
+    "name": "affiliateLinks",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.link"
+    }
+  }
+}

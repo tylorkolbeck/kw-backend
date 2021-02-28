@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/affiliate-links",
+      "handler": "affiliate-links.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/affiliate-links",
+      "handler": "affiliate-links.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/affiliate-links",
+      "handler": "affiliate-links.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
