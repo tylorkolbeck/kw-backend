@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "coin_lists",
+  "info": {
+    "name": "coinList",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "coin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single.coin",
+      "max": 50,
+      "min": 10
+    }
+  }
+}

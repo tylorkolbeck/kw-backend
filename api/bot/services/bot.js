@@ -35,12 +35,39 @@ module.exports = {
       );
 
       const embed = new MessageEmbed()
+
         .setColor("#0d46a0")
         .setTitle(message.title)
         .setURL(message.url)
         .setAuthor(message.author)
         .setDescription(message.description)
         .setImage(message.thumbnail);
+
+      sendChannel.send(embed);
+      return "sent";
+    } catch (error) {
+      console.log(error);
+      return error;
+    }
+  },
+
+  sendCoinList: async (channelId, message) => {
+    if (!message) {
+      return "Please include a message to send to the channel";
+    }
+    if (!channelId) {
+      return "Please include the id of the channel that you like to send a message to";
+    }
+
+    try {
+      const sendChannel = await client.channels.cache.find(
+        (channel) => channel.id == channelId
+      );
+
+      const embed = new MessageEmbed()
+        .setColor("#0d46a0")
+        .setTitle(message.title)
+        .setDescription(message.description);
 
       sendChannel.send(embed);
       return "sent";

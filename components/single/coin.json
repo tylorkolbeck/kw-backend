@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_single_coins",
+  "info": {
+    "name": "coin",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "coin": {
+      "type": "string"
+    }
+  }
+}
