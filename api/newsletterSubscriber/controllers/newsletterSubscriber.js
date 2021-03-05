@@ -1,4 +1,5 @@
 "use strict";
+const axios = require("axios");
 
 module.exports = {
   async index(ctx) {
@@ -11,6 +12,24 @@ module.exports = {
       return ctx.throw(406, "Please provide a valid email");
     }
 
+    var data = { email_address: email, status: "subscribed" };
+
+    const token = Buffer.from(
+      `anystring:${process.env.MAILCHIMP_API_KEY}`,
+      "utf8"
+    ).toString("base64");
+
+    var config = {
+      method: "post",
+      url: `https://us1.api.mailchimp.com/3.0/lists/${process.env.MAILCHIMP_AUDIENCE_KEY}/members`,
+      headers: {
+        "Content-Type": "application/javascript",
+        Authorization: `Basic ${token}`,
+      },
+      data: data,
+    };
+
+    axios(config);
     const result = await strapi.services.newslettersubscriber.addEmail(email);
 
     if (result) {
