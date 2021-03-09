@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/google-form-url",
+      "handler": "google-form-url.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/google-form-url",
+      "handler": "google-form-url.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/google-form-url",
+      "handler": "google-form-url.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

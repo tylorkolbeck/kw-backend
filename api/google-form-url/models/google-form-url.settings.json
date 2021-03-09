@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "google_form_urls",
+  "info": {
+    "name": "Google Form Url"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Url": {
+      "type": "string"
+    }
+  }
+}
