@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/management-card",
+      "handler": "management-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/management-card",
+      "handler": "management-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/management-card",
+      "handler": "management-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

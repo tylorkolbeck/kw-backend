@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "management_cards",
+  "info": {
+    "name": "Management Card",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "contentBody": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "formUrl": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -29,7 +29,9 @@ module.exports = {
       data: data,
     };
 
-    axios(config);
+    axios(config).catch((error) => {
+      console.log("already signed up");
+    });
     const result = await strapi.services.newslettersubscriber.addEmail(email);
 
     if (result) {
