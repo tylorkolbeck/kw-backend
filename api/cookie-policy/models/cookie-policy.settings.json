@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookie_policies",
+  "info": {
+    "name": "Cookie Policy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "policy": {
+      "type": "richtext"
+    }
+  }
+}
