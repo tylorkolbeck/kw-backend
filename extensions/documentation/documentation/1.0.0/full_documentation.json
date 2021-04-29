@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/10/2021 10:23:37 AM"
+    "x-generation-date": "04/28/2021 9:20:25 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10571,9 +10571,7 @@
           "publishedAt",
           "status",
           "slug",
-          "category",
           "image",
-          "author",
           "premium"
         ],
         "properties": {
@@ -10736,6 +10734,14 @@
             "type": "boolean",
             "default": false
           },
+          "announceToDiscord": {
+            "type": "boolean",
+            "default": true
+          },
+          "takeOverFeaturedArticle": {
+            "type": "boolean",
+            "default": true
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -10750,8 +10756,6 @@
           "publishedAt",
           "status",
           "slug",
-          "category",
-          "author",
           "premium"
         ],
         "properties": {
@@ -10788,6 +10792,14 @@
           "premium": {
             "type": "boolean",
             "default": false
+          },
+          "announceToDiscord": {
+            "type": "boolean",
+            "default": true
+          },
+          "takeOverFeaturedArticle": {
+            "type": "boolean",
+            "default": true
           },
           "published_at": {
             "type": "string",
@@ -11058,9 +11070,7 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "category",
                 "image",
-                "author",
                 "premium"
               ],
               "properties": {
@@ -11095,6 +11105,12 @@
                   "type": "string"
                 },
                 "premium": {
+                  "type": "boolean"
+                },
+                "announceToDiscord": {
+                  "type": "boolean"
+                },
+                "takeOverFeaturedArticle": {
                   "type": "boolean"
                 },
                 "published_at": {
@@ -12697,9 +12713,7 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "category",
                 "image",
-                "author",
                 "premium"
               ],
               "properties": {
@@ -12734,6 +12748,12 @@
                   "type": "string"
                 },
                 "premium": {
+                  "type": "boolean"
+                },
+                "announceToDiscord": {
+                  "type": "boolean"
+                },
+                "takeOverFeaturedArticle": {
                   "type": "boolean"
                 },
                 "published_at": {

@@ -43,8 +43,7 @@
     },
     "category": {
       "model": "category",
-      "via": "articles",
-      "required": true
+      "via": "articles"
     },
     "image": {
       "model": "file",
@@ -59,13 +58,20 @@
     },
     "author": {
       "model": "writer",
-      "via": "articles",
-      "required": true
+      "via": "articles"
     },
     "premium": {
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "announceToDiscord": {
+      "type": "boolean",
+      "default": true
+    },
+    "takeOverFeaturedArticle": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

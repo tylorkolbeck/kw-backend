@@ -525,9 +525,7 @@
           "publishedAt",
           "status",
           "slug",
-          "category",
           "image",
-          "author",
           "premium"
         ],
         "properties": {
@@ -690,6 +688,14 @@
             "type": "boolean",
             "default": false
           },
+          "announceToDiscord": {
+            "type": "boolean",
+            "default": true
+          },
+          "takeOverFeaturedArticle": {
+            "type": "boolean",
+            "default": true
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -704,8 +710,6 @@
           "publishedAt",
           "status",
           "slug",
-          "category",
-          "author",
           "premium"
         ],
         "properties": {
@@ -742,6 +746,14 @@
           "premium": {
             "type": "boolean",
             "default": false
+          },
+          "announceToDiscord": {
+            "type": "boolean",
+            "default": true
+          },
+          "takeOverFeaturedArticle": {
+            "type": "boolean",
+            "default": true
           },
           "published_at": {
             "type": "string",

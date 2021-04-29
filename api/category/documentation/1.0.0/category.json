@@ -543,9 +543,7 @@
                 "publishedAt",
                 "status",
                 "slug",
-                "category",
                 "image",
-                "author",
                 "premium"
               ],
               "properties": {
@@ -580,6 +578,12 @@
                   "type": "string"
                 },
                 "premium": {
+                  "type": "boolean"
+                },
+                "announceToDiscord": {
+                  "type": "boolean"
+                },
+                "takeOverFeaturedArticle": {
                   "type": "boolean"
                 },
                 "published_at": {
