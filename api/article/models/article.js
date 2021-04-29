@@ -20,7 +20,7 @@ module.exports = {
         ).values.seconds;
       }
 
-      if (secondsSincePublished < 10) {
+      if (secondsSincePublished < 10 && entry.postToDiscordOnSave) {
         try {
           setTimeout(() => {
             strapi.services.bot.sendBlogPostToDiscord(
