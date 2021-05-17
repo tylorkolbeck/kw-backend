@@ -20,7 +20,7 @@ module.exports = {
         ).values.seconds;
       }
 
-      if (secondsSincePublished < 10 && entry.postToDiscordOnSave) {
+      if (secondsSincePublished < 10 && entry.announceToDiscord) {
         try {
           setTimeout(() => {
             strapi.services.bot.sendBlogPostToDiscord(
@@ -29,7 +29,9 @@ module.exports = {
                 title: entry.title,
                 description: entry.description,
                 url: `${process.env.FRONT_END_URL}/article/${entry.slug}`,
-                author: `Checkout the new post on our website by ${entry.author.name}`,
+                author: `Checkout the new post on our website by ${
+                  entry.author ? entry.author.name : "Killer Whale Crypto"
+                }`,
                 thumbnail: entry.image.formats.thumbnail.url,
               }
             );
