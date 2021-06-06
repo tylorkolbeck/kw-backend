@@ -538,7 +538,8 @@
               "Signal",
               "Trend",
               "Template",
-              "AIConfiguration"
+              "AIConfiguration",
+              "Sector_Strategy"
             ]
           },
           "features": {
@@ -589,7 +590,8 @@
               "Signal",
               "Trend",
               "Template",
-              "AIConfiguration"
+              "AIConfiguration",
+              "Sector_Strategy"
             ]
           },
           "features": {
