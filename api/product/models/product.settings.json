@@ -24,7 +24,8 @@
         "Signal",
         "Trend",
         "Template",
-        "AIConfiguration"
+        "AIConfiguration",
+        "Sector_Strategy"
       ]
     },
     "features": {
