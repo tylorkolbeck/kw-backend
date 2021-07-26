@@ -28,12 +28,13 @@
     "publishedAt": {
       "type": "datetime"
     },
-    "category": {
-      "model": "category"
-    },
     "content": {
       "type": "richtext",
       "required": false
+    },
+    "video_category": {
+      "via": "videos",
+      "model": "video-category"
     }
   }
 }

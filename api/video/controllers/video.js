@@ -14,7 +14,6 @@ module.exports = {
 
   findOne: async (ctx) => {
     const { slug } = ctx.params;
-
     const entity = await strapi.services.video.findOne({ slug });
 
     // Check if this is premium content and that the user has an active subscription

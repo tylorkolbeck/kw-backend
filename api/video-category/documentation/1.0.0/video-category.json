@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/videos": {
+    "/video-categories": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -10,9 +10,10 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Video"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -51,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Video"
+          "Video-category"
         ],
         "parameters": [
           {
@@ -201,72 +202,9 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Video"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Video"
-        ],
-        "requestBody": {
-          "description": "",
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewVideo"
-              }
-            }
-          }
-        }
-      }
-    },
-    "/videos/count": {
-      "get": {
-        "deprecated": false,
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
                   "properties": {
-                    "count": {
-                      "type": "integer"
+                    "foo": {
+                      "type": "string"
                     }
                   }
                 }
@@ -306,12 +244,22 @@
         },
         "summary": "",
         "tags": [
-          "Video"
+          "Video-category"
         ],
-        "parameters": []
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewVideo-category"
+              }
+            }
+          }
+        }
       }
     },
-    "/videos/{slug}": {
+    "/video-categories/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -321,7 +269,11 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Video"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -359,11 +311,68 @@
         },
         "summary": "",
         "tags": [
-          "Video"
+          "Video-category"
+        ],
+        "parameters": []
+      }
+    },
+    "/video-categories/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Video-category"
         ],
         "parameters": [
           {
-            "name": "slug",
+            "name": "id",
             "in": "path",
             "description": "",
             "deprecated": false,
@@ -373,9 +382,7 @@
             }
           }
         ]
-      }
-    },
-    "/videos/{id}": {
+      },
       "put": {
         "deprecated": false,
         "description": "Update a record",
@@ -385,7 +392,11 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Video"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -423,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Video"
+          "Video-category"
         ],
         "requestBody": {
           "description": "",
@@ -431,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewVideo"
+                "$ref": "#/components/schemas/NewVideo-category"
               }
             }
           }
@@ -497,7 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Video"
+          "Video-category"
         ],
         "parameters": [
           {
@@ -516,67 +527,66 @@
   },
   "components": {
     "schemas": {
-      "Video": {
+      "Video-category": {
         "required": [
-          "id"
+          "id",
+          "slug"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "oembed": {
-            "type": "oembed"
-          },
-          "title": {
+          "Category": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
+          "videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "oembed": {
+                  "type": "oembed"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "uid"
+                },
+                "publishedAt": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                },
+                "video_category": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "slug": {
             "type": "uid"
           },
-          "publishedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "content": {
+          "description": {
             "type": "string"
-          },
-          "video_category": {
-            "required": [
-              "id",
-              "slug"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "Category": {
-                "type": "string"
-              },
-              "videos": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "slug": {
-                "type": "uid"
-              },
-              "description": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           },
           "published_at": {
             "type": "string",
@@ -584,28 +594,24 @@
           }
         }
       },
-      "NewVideo": {
+      "NewVideo-category": {
+        "required": [
+          "slug"
+        ],
         "properties": {
-          "oembed": {
-            "type": "oembed"
-          },
-          "title": {
+          "Category": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
+          "videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "slug": {
             "type": "uid"
           },
-          "publishedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "content": {
-            "type": "string"
-          },
-          "video_category": {
+          "description": {
             "type": "string"
           },
           "published_at": {
@@ -622,9 +628,5 @@
       }
     }
   },
-  "tags": [
-    {
-      "name": "Video"
-    }
-  ]
+  "tags": []
 }
