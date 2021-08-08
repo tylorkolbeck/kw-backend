@@ -13,7 +13,7 @@
     "username": {
       "type": "string",
       "minLength": 3,
-      "unique": true,
+      "unique": false,
       "configurable": false,
       "required": false
     },

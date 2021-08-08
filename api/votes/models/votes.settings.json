@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votes",
+  "info": {
+    "name": "votes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "vote": {
+      "type": "boolean"
+    },
+    "article": {
+      "model": "article",
+      "autoPopulate": false
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "autoPopulate": false
+    }
+  }
+}
