@@ -10,7 +10,6 @@
     "strapi": "strapi",
     "dev:admin-panel": "npm run dev -- --watch-admin"
   },
-  "devDependencies": {},
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.5.1",
@@ -30,6 +29,7 @@
     "strapi-plugin-upload": "3.4.4",
     "strapi-plugin-users-permissions": "3.4.4",
     "strapi-provider-email-console": "0.0.1",
+    "strapi-provider-email-mcmandrill": "^1.1.4",
     "strapi-provider-email-nodemailer": "^3.4.4",
     "strapi-provider-upload-s3": "file:providers/strapi-provider-upload-s3",
     "strapi-utils": "3.4.4"
