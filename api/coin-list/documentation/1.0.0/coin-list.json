@@ -339,8 +339,8 @@
                 }
               }
             },
-            "minItems": 10,
-            "maxItems": 50
+            "minItems": 1,
+            "maxItems": 100
           },
           "published_at": {
             "type": "string",
@@ -366,8 +366,8 @@
                 }
               }
             },
-            "minItems": 10,
-            "maxItems": 50
+            "minItems": 1,
+            "maxItems": 100
           },
           "published_at": {
             "type": "string",

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/08/2021 4:19:17 PM"
+    "x-generation-date": "10/12/2021 7:32:54 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5381,6 +5381,63 @@
         "summary": "",
         "tags": [
           "Homepage"
+        ],
+        "parameters": []
+      }
+    },
+    "/kucoinnews": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Kucoinfeed"
         ],
         "parameters": []
       }
@@ -12766,8 +12823,8 @@
                 }
               }
             },
-            "minItems": 10,
-            "maxItems": 50
+            "minItems": 1,
+            "maxItems": 100
           },
           "published_at": {
             "type": "string",
@@ -12793,8 +12850,8 @@
                 }
               }
             },
-            "minItems": 10,
-            "maxItems": 50
+            "minItems": 1,
+            "maxItems": 100
           },
           "published_at": {
             "type": "string",
@@ -15012,6 +15069,9 @@
     },
     {
       "name": "Homepage"
+    },
+    {
+      "name": "Kucoinfeed"
     },
     {
       "name": "Link"
