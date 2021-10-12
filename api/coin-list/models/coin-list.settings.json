@@ -15,8 +15,8 @@
       "type": "component",
       "repeatable": true,
       "component": "single.coin",
-      "max": 50,
-      "min": 10
+      "max": 100,
+      "min": 1
     }
   }
 }

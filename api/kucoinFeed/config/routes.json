@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kucoinnews",
+      "handler": "kucoinFeed.getKucoinNews",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
