@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_products_features",
+  "info": {
+    "name": "feature",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

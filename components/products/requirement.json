@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_products_requirements",
+  "info": {
+    "name": "requirement",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "requirement": {
+      "type": "string"
+    }
+  }
+}

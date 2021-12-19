@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_products_experiences",
+  "info": {
+    "name": "experience",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experience": {
+      "type": "enumeration",
+      "enum": [
+        "fish",
+        "dolphin",
+        "whale"
+      ]
+    }
+  }
+}

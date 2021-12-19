@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_products_templates",
+  "info": {
+    "name": "template",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
