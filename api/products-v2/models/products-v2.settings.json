@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_v2s",
+  "info": {
+    "name": "Products V2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "strategy",
+        "signal"
+      ]
+    },
+    "minStartBalance": {
+      "type": "string"
+    },
+    "tradeFreq": {
+      "type": "integer"
+    },
+    "tradeDuration": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "chLink": {
+      "type": "string"
+    },
+    "setupGuideLink": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.experience",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.feature",
+      "required": true
+    },
+    "requirements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.requirement",
+      "required": true
+    },
+    "templates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.template",
+      "required": false
+    }
+  }
+}
