@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_contents",
+  "info": {
+    "name": "content",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "contentName": {
+      "type": "string"
+    },
+    "contentBody": {
+      "type": "richtext"
+    }
+  }
+}
