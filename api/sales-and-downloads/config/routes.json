@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sales-and-downloads",
+      "handler": "sales-and-downloads.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sales-and-downloads",
+      "handler": "sales-and-downloads.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sales-and-downloads",
+      "handler": "sales-and-downloads.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

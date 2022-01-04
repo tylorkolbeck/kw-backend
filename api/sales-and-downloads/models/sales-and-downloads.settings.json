@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "sales_and_downloads",
+  "info": {
+    "name": "salesAndDownloads"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "products": {
+      "type": "biginteger"
+    },
+    "sales": {
+      "type": "biginteger"
+    },
+    "downloads": {
+      "type": "biginteger"
+    },
+    "subscribers": {
+      "type": "biginteger"
+    }
+  }
+}
