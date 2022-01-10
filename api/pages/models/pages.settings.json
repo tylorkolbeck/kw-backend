@@ -19,7 +19,8 @@
     "pageContent": {
       "type": "dynamiczone",
       "components": [
-        "sections.content"
+        "sections.content",
+        "sections.title-and-markdown"
       ]
     }
   }

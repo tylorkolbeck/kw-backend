@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_title_and_markdowns",
+  "info": {
+    "name": "titleAndMarkdown",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

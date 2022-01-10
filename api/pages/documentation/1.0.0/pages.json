@@ -535,7 +535,8 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "sections.content"
+                        "sections.content",
+                        "sections.title-and-markdown"
                       ]
                     },
                     "id": {
@@ -545,6 +546,32 @@
                       "type": "string"
                     },
                     "contentBody": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.content",
+                        "sections.title-and-markdown"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "sectionName": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "title": {
                       "type": "string"
                     }
                   },
@@ -578,7 +605,8 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "sections.content"
+                        "sections.content",
+                        "sections.title-and-markdown"
                       ]
                     },
                     "id": {
@@ -588,6 +616,32 @@
                       "type": "string"
                     },
                     "contentBody": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.content",
+                        "sections.title-and-markdown"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "sectionName": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "title": {
                       "type": "string"
                     }
                   },

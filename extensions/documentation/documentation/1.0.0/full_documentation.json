@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/04/2022 3:38:54 PM"
+    "x-generation-date": "01/10/2022 9:34:27 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -15131,7 +15131,8 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "sections.content"
+                        "sections.content",
+                        "sections.title-and-markdown"
                       ]
                     },
                     "id": {
@@ -15141,6 +15142,32 @@
                       "type": "string"
                     },
                     "contentBody": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.content",
+                        "sections.title-and-markdown"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "sectionName": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "title": {
                       "type": "string"
                     }
                   },
@@ -15174,7 +15201,8 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "sections.content"
+                        "sections.content",
+                        "sections.title-and-markdown"
                       ]
                     },
                     "id": {
@@ -15184,6 +15212,32 @@
                       "type": "string"
                     },
                     "contentBody": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.content",
+                        "sections.title-and-markdown"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "sectionName": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "title": {
                       "type": "string"
                     }
                   },
