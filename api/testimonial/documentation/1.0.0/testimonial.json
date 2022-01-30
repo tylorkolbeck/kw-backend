@@ -554,9 +554,6 @@
               "slug": {
                 "type": "string"
               },
-              "price": {
-                "type": "number"
-              },
               "type": {
                 "type": "string"
               },
@@ -589,6 +586,9 @@
               },
               "templates": {
                 "type": "component"
+              },
+              "price": {
+                "type": "string"
               },
               "published_at": {
                 "type": "string"
