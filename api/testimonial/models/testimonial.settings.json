@@ -40,6 +40,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "product": {
+      "model": "products-v2"
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/29/2022 5:42:37 PM"
+    "x-generation-date": "01/30/2022 10:14:06 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -15922,6 +15922,70 @@
           "slug": {
             "type": "string"
           },
+          "product": {
+            "required": [
+              "id",
+              "experience",
+              "features",
+              "requirements"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "type": {
+                "type": "string"
+              },
+              "minStartBalance": {
+                "type": "string"
+              },
+              "tradeFreq": {
+                "type": "integer"
+              },
+              "tradeDuration": {
+                "type": "integer"
+              },
+              "description": {
+                "type": "string"
+              },
+              "chLink": {
+                "type": "string"
+              },
+              "setupGuideLink": {
+                "type": "string"
+              },
+              "experience": {
+                "type": "component"
+              },
+              "features": {
+                "type": "component"
+              },
+              "requirements": {
+                "type": "component"
+              },
+              "templates": {
+                "type": "component"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -15958,6 +16022,9 @@
             "type": "integer"
           },
           "slug": {
+            "type": "string"
+          },
+          "product": {
             "type": "string"
           },
           "published_at": {

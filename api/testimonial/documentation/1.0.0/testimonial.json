@@ -552,6 +552,70 @@
           "slug": {
             "type": "string"
           },
+          "product": {
+            "required": [
+              "id",
+              "experience",
+              "features",
+              "requirements"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "type": {
+                "type": "string"
+              },
+              "minStartBalance": {
+                "type": "string"
+              },
+              "tradeFreq": {
+                "type": "integer"
+              },
+              "tradeDuration": {
+                "type": "integer"
+              },
+              "description": {
+                "type": "string"
+              },
+              "chLink": {
+                "type": "string"
+              },
+              "setupGuideLink": {
+                "type": "string"
+              },
+              "experience": {
+                "type": "component"
+              },
+              "features": {
+                "type": "component"
+              },
+              "requirements": {
+                "type": "component"
+              },
+              "templates": {
+                "type": "component"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -588,6 +652,9 @@
             "type": "integer"
           },
           "slug": {
+            "type": "string"
+          },
+          "product": {
             "type": "string"
           },
           "published_at": {
