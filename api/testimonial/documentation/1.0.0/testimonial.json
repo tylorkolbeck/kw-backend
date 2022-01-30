@@ -537,21 +537,6 @@
           "strategy": {
             "type": "string"
           },
-          "prodName": {
-            "type": "string"
-          },
-          "type": {
-            "type": "string"
-          },
-          "tradeDuration": {
-            "type": "integer"
-          },
-          "tradeFreq": {
-            "type": "integer"
-          },
-          "slug": {
-            "type": "string"
-          },
           "product": {
             "required": [
               "id",
@@ -637,21 +622,6 @@
             "type": "string"
           },
           "strategy": {
-            "type": "string"
-          },
-          "prodName": {
-            "type": "string"
-          },
-          "type": {
-            "type": "string"
-          },
-          "tradeDuration": {
-            "type": "integer"
-          },
-          "tradeFreq": {
-            "type": "integer"
-          },
-          "slug": {
             "type": "string"
           },
           "product": {
