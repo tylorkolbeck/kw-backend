@@ -544,9 +544,6 @@
           "slug": {
             "type": "string"
           },
-          "price": {
-            "type": "number"
-          },
           "type": {
             "type": "string",
             "enum": [
@@ -647,6 +644,9 @@
                 }
               }
             }
+          },
+          "price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -667,9 +667,6 @@
           "slug": {
             "type": "string"
           },
-          "price": {
-            "type": "number"
-          },
           "type": {
             "type": "string",
             "enum": [
@@ -770,6 +767,9 @@
                 }
               }
             }
+          },
+          "price": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

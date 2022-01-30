@@ -17,9 +17,6 @@
     "slug": {
       "type": "string"
     },
-    "price": {
-      "type": "decimal"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
@@ -68,6 +65,9 @@
       "repeatable": true,
       "component": "products.template",
       "required": false
+    },
+    "price": {
+      "type": "string"
     }
   }
 }
