@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "testimonials",
   "info": {
-    "name": "Testimonial"
+    "name": "Testimonial",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,19 +14,35 @@
     "name": {
       "type": "string"
     },
-    "review": {
+    "description": {
       "type": "text"
     },
-    "reviewImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "startBal": {
+      "type": "string"
+    },
+    "profit": {
+      "type": "string"
+    },
+    "strategy": {
+      "type": "string"
+    },
+    "prodName": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "tradeDuration": {
+      "type": "integer"
+    },
+    "tradeFreq": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "product": {
+      "model": "products-v2"
     }
   }
 }
