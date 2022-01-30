@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/testimonials": {
+    "/bios": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the bios's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bios document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Testimonial"
+                    "$ref": "#/components/schemas/Bios"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new bios record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bios document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Bios"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewTestimonial"
+                "$ref": "#/components/schemas/NewBios"
               }
             }
           }
         }
       }
     },
-    "/testimonials/count": {
+    "/bios/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of bios documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bios document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "parameters": []
       }
     },
-    "/testimonials/{id}": {
+    "/bios/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one bios record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bios document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Bios"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single bios record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bios document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Bios"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewTestimonial"
+                "$ref": "#/components/schemas/NewBios"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single bios record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single bios based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Bios"
         ],
         "parameters": [
           {
@@ -514,7 +514,7 @@
   },
   "components": {
     "schemas": {
-      "Testimonial": {
+      "Bios": {
         "required": [
           "id"
         ],
@@ -525,24 +525,15 @@
           "name": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
-          },
-          "startBal": {
-            "type": "string"
-          },
-          "profit": {
-            "type": "string"
-          },
-          "strategy": {
-            "type": "string"
-          },
-          "product": {
+          "profile": {
             "required": [
               "id",
-              "experience",
-              "features",
-              "requirements"
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
             ],
             "properties": {
               "id": {
@@ -551,46 +542,46 @@
               "name": {
                 "type": "string"
               },
-              "slug": {
+              "alternativeText": {
                 "type": "string"
               },
-              "price": {
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
                 "type": "number"
               },
-              "type": {
+              "url": {
                 "type": "string"
               },
-              "minStartBalance": {
+              "previewUrl": {
                 "type": "string"
               },
-              "tradeFreq": {
-                "type": "integer"
-              },
-              "tradeDuration": {
-                "type": "integer"
-              },
-              "description": {
+              "provider": {
                 "type": "string"
               },
-              "chLink": {
-                "type": "string"
+              "provider_metadata": {
+                "type": "object"
               },
-              "setupGuideLink": {
-                "type": "string"
-              },
-              "experience": {
-                "type": "component"
-              },
-              "features": {
-                "type": "component"
-              },
-              "requirements": {
-                "type": "component"
-              },
-              "templates": {
-                "type": "component"
-              },
-              "published_at": {
+              "related": {
                 "type": "string"
               },
               "created_by": {
@@ -601,30 +592,33 @@
               }
             }
           },
+          "title": {
+            "type": "string"
+          },
+          "bio": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
           }
         }
       },
-      "NewTestimonial": {
+      "NewBios": {
         "properties": {
           "name": {
             "type": "string"
           },
-          "description": {
+          "title": {
             "type": "string"
           },
-          "startBal": {
+          "bio": {
             "type": "string"
           },
-          "profit": {
-            "type": "string"
-          },
-          "strategy": {
-            "type": "string"
-          },
-          "product": {
+          "location": {
             "type": "string"
           },
           "published_at": {
@@ -643,7 +637,7 @@
   },
   "tags": [
     {
-      "name": "Testimonial"
+      "name": "Bios"
     }
   ]
 }

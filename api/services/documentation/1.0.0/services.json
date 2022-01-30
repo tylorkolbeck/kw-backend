@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/testimonials": {
+    "/services": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the services's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve services document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Testimonial"
+                    "$ref": "#/components/schemas/Services"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new services record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve services document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Services"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewTestimonial"
+                "$ref": "#/components/schemas/NewServices"
               }
             }
           }
         }
       }
     },
-    "/testimonials/count": {
+    "/services/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of services documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve services document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "parameters": []
       }
     },
-    "/testimonials/{id}": {
+    "/services/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one services record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve services document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Services"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single services record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve services document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Testimonial"
+                  "$ref": "#/components/schemas/Services"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewTestimonial"
+                "$ref": "#/components/schemas/NewServices"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single services record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single services based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Testimonial"
+          "Services"
         ],
         "parameters": [
           {
@@ -514,7 +514,7 @@
   },
   "components": {
     "schemas": {
-      "Testimonial": {
+      "Services": {
         "required": [
           "id"
         ],
@@ -525,24 +525,35 @@
           "name": {
             "type": "string"
           },
-          "description": {
+          "price": {
             "type": "string"
           },
-          "startBal": {
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "feature": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "booking_url": {
             "type": "string"
           },
-          "profit": {
+          "disclaimer": {
             "type": "string"
           },
-          "strategy": {
-            "type": "string"
-          },
-          "product": {
+          "service_category": {
             "required": [
-              "id",
-              "experience",
-              "features",
-              "requirements"
+              "id"
             ],
             "properties": {
               "id": {
@@ -551,44 +562,8 @@
               "name": {
                 "type": "string"
               },
-              "slug": {
+              "image": {
                 "type": "string"
-              },
-              "price": {
-                "type": "number"
-              },
-              "type": {
-                "type": "string"
-              },
-              "minStartBalance": {
-                "type": "string"
-              },
-              "tradeFreq": {
-                "type": "integer"
-              },
-              "tradeDuration": {
-                "type": "integer"
-              },
-              "description": {
-                "type": "string"
-              },
-              "chLink": {
-                "type": "string"
-              },
-              "setupGuideLink": {
-                "type": "string"
-              },
-              "experience": {
-                "type": "component"
-              },
-              "features": {
-                "type": "component"
-              },
-              "requirements": {
-                "type": "component"
-              },
-              "templates": {
-                "type": "component"
               },
               "published_at": {
                 "type": "string"
@@ -607,24 +582,38 @@
           }
         }
       },
-      "NewTestimonial": {
+      "NewServices": {
         "properties": {
           "name": {
             "type": "string"
           },
-          "description": {
+          "price": {
             "type": "string"
           },
-          "startBal": {
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "feature": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "booking_url": {
             "type": "string"
           },
-          "profit": {
+          "disclaimer": {
             "type": "string"
           },
-          "strategy": {
-            "type": "string"
-          },
-          "product": {
+          "service_category": {
             "type": "string"
           },
           "published_at": {
@@ -643,7 +632,7 @@
   },
   "tags": [
     {
-      "name": "Testimonial"
+      "name": "Services"
     }
   ]
 }
