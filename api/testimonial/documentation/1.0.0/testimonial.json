@@ -525,18 +525,39 @@
           "name": {
             "type": "string"
           },
-          "review": {
+          "description": {
             "type": "string"
           },
-          "reviewImage": {
+          "startBal": {
+            "type": "string"
+          },
+          "profit": {
+            "type": "string"
+          },
+          "strategy": {
+            "type": "string"
+          },
+          "prodName": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "tradeDuration": {
+            "type": "integer"
+          },
+          "tradeFreq": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "product": {
             "required": [
               "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
+              "experience",
+              "features",
+              "requirements"
             ],
             "properties": {
               "id": {
@@ -545,46 +566,46 @@
               "name": {
                 "type": "string"
               },
-              "alternativeText": {
+              "slug": {
                 "type": "string"
               },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
+              "price": {
                 "type": "number"
               },
-              "url": {
+              "type": {
                 "type": "string"
               },
-              "previewUrl": {
+              "minStartBalance": {
                 "type": "string"
               },
-              "provider": {
+              "tradeFreq": {
+                "type": "integer"
+              },
+              "tradeDuration": {
+                "type": "integer"
+              },
+              "description": {
                 "type": "string"
               },
-              "provider_metadata": {
-                "type": "object"
+              "chLink": {
+                "type": "string"
               },
-              "related": {
+              "setupGuideLink": {
+                "type": "string"
+              },
+              "experience": {
+                "type": "component"
+              },
+              "features": {
+                "type": "component"
+              },
+              "requirements": {
+                "type": "component"
+              },
+              "templates": {
+                "type": "component"
+              },
+              "published_at": {
                 "type": "string"
               },
               "created_by": {
@@ -606,7 +627,34 @@
           "name": {
             "type": "string"
           },
-          "review": {
+          "description": {
+            "type": "string"
+          },
+          "startBal": {
+            "type": "string"
+          },
+          "profit": {
+            "type": "string"
+          },
+          "strategy": {
+            "type": "string"
+          },
+          "prodName": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "tradeDuration": {
+            "type": "integer"
+          },
+          "tradeFreq": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "product": {
             "type": "string"
           },
           "published_at": {
