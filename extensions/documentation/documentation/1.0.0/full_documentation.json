@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/30/2022 12:05:57 PM"
+    "x-generation-date": "02/09/2022 8:31:08 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -96,7 +96,9 @@
           }
         },
         "summary": "",
-        "tags": ["Affiliate-links"],
+        "tags": [
+          "Affiliate-links"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -286,7 +288,9 @@
           }
         },
         "summary": "",
-        "tags": ["Affiliate-links"],
+        "tags": [
+          "Affiliate-links"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -347,7 +351,9 @@
           }
         },
         "summary": "",
-        "tags": ["Affiliate-links"],
+        "tags": [
+          "Affiliate-links"
+        ],
         "parameters": []
       }
     },
@@ -401,7 +407,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -587,7 +595,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -652,7 +662,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "parameters": []
       }
     },
@@ -703,7 +715,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "parameters": [
           {
             "name": "slug",
@@ -765,7 +779,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -837,7 +853,9 @@
           }
         },
         "summary": "",
-        "tags": ["Article"],
+        "tags": [
+          "Article"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -903,7 +921,9 @@
           }
         },
         "summary": "",
-        "tags": ["Articles-page"],
+        "tags": [
+          "Articles-page"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -1093,7 +1113,9 @@
           }
         },
         "summary": "",
-        "tags": ["Articles-page"],
+        "tags": [
+          "Articles-page"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1154,7 +1176,9 @@
           }
         },
         "summary": "",
-        "tags": ["Articles-page"],
+        "tags": [
+          "Articles-page"
+        ],
         "parameters": []
       }
     },
@@ -1208,7 +1232,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -1394,7 +1420,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1459,7 +1487,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "parameters": []
       }
     },
@@ -1510,7 +1540,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1570,7 +1602,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1642,7 +1676,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bios"],
+        "tags": [
+          "Bios"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1708,7 +1744,9 @@
           }
         },
         "summary": "",
-        "tags": ["Bot"],
+        "tags": [
+          "Bot"
+        ],
         "parameters": []
       }
     },
@@ -1763,7 +1801,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel-timer"],
+        "tags": [
+          "Carousel-timer"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -1953,7 +1993,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel-timer"],
+        "tags": [
+          "Carousel-timer"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2014,7 +2056,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel-timer"],
+        "tags": [
+          "Carousel-timer"
+        ],
         "parameters": []
       }
     },
@@ -2068,7 +2112,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -2254,7 +2300,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2319,7 +2367,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "parameters": []
       }
     },
@@ -2370,7 +2420,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2430,7 +2482,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2502,7 +2556,9 @@
           }
         },
         "summary": "",
-        "tags": ["Carousel"],
+        "tags": [
+          "Carousel"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2567,7 +2623,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -2753,7 +2811,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2818,7 +2878,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "parameters": []
       }
     },
@@ -2869,7 +2931,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "parameters": [
           {
             "name": "slug",
@@ -2931,7 +2995,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3003,7 +3069,9 @@
           }
         },
         "summary": "",
-        "tags": ["Category"],
+        "tags": [
+          "Category"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3069,7 +3137,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -3259,7 +3329,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3324,7 +3396,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "parameters": []
       }
     },
@@ -3379,7 +3453,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3443,7 +3519,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3515,7 +3593,9 @@
           }
         },
         "summary": "",
-        "tags": ["Change-log"],
+        "tags": [
+          "Change-log"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3581,7 +3661,9 @@
           }
         },
         "summary": "",
-        "tags": ["Coin-list"],
+        "tags": [
+          "Coin-list"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -3771,7 +3853,9 @@
           }
         },
         "summary": "",
-        "tags": ["Coin-list"],
+        "tags": [
+          "Coin-list"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3832,7 +3916,9 @@
           }
         },
         "summary": "",
-        "tags": ["Coin-list"],
+        "tags": [
+          "Coin-list"
+        ],
         "parameters": []
       }
     },
@@ -3887,7 +3973,9 @@
           }
         },
         "summary": "",
-        "tags": ["Cookie-policy"],
+        "tags": [
+          "Cookie-policy"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -4077,7 +4165,9 @@
           }
         },
         "summary": "",
-        "tags": ["Cookie-policy"],
+        "tags": [
+          "Cookie-policy"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4138,7 +4228,9 @@
           }
         },
         "summary": "",
-        "tags": ["Cookie-policy"],
+        "tags": [
+          "Cookie-policy"
+        ],
         "parameters": []
       }
     },
@@ -4193,7 +4285,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -4383,7 +4477,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4448,7 +4544,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "parameters": []
       }
     },
@@ -4503,7 +4601,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4567,7 +4667,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4639,7 +4741,9 @@
           }
         },
         "summary": "",
-        "tags": ["Fa-qs"],
+        "tags": [
+          "Fa-qs"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4705,7 +4809,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -4895,7 +5001,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4960,7 +5068,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "parameters": []
       }
     },
@@ -5015,7 +5125,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5079,7 +5191,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5151,7 +5265,9 @@
           }
         },
         "summary": "",
-        "tags": ["Getting-started-step"],
+        "tags": [
+          "Getting-started-step"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5216,7 +5332,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -5402,7 +5520,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5463,7 +5583,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "parameters": []
       }
     },
@@ -5517,7 +5639,9 @@
           }
         },
         "summary": "",
-        "tags": ["Homepage"],
+        "tags": [
+          "Homepage"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -5703,7 +5827,9 @@
           }
         },
         "summary": "",
-        "tags": ["Homepage"],
+        "tags": [
+          "Homepage"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5764,7 +5890,9 @@
           }
         },
         "summary": "",
-        "tags": ["Homepage"],
+        "tags": [
+          "Homepage"
+        ],
         "parameters": []
       }
     },
@@ -5819,7 +5947,9 @@
           }
         },
         "summary": "",
-        "tags": ["Kucoinfeed"],
+        "tags": [
+          "Kucoinfeed"
+        ],
         "parameters": []
       }
     },
@@ -5873,7 +6003,9 @@
           }
         },
         "summary": "",
-        "tags": ["Link"],
+        "tags": [
+          "Link"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -6059,7 +6191,9 @@
           }
         },
         "summary": "",
-        "tags": ["Link"],
+        "tags": [
+          "Link"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6120,7 +6254,9 @@
           }
         },
         "summary": "",
-        "tags": ["Link"],
+        "tags": [
+          "Link"
+        ],
         "parameters": []
       }
     },
@@ -6175,7 +6311,9 @@
           }
         },
         "summary": "",
-        "tags": ["Management-card"],
+        "tags": [
+          "Management-card"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -6365,7 +6503,9 @@
           }
         },
         "summary": "",
-        "tags": ["Management-card"],
+        "tags": [
+          "Management-card"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6426,7 +6566,9 @@
           }
         },
         "summary": "",
-        "tags": ["Management-card"],
+        "tags": [
+          "Management-card"
+        ],
         "parameters": []
       }
     },
@@ -6481,7 +6623,9 @@
           }
         },
         "summary": "",
-        "tags": ["Newslettersubscriber"],
+        "tags": [
+          "Newslettersubscriber"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6549,7 +6693,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -6735,7 +6881,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6800,7 +6948,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "parameters": []
       }
     },
@@ -6851,7 +7001,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -6911,7 +7063,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6983,7 +7137,9 @@
           }
         },
         "summary": "",
-        "tags": ["Pages"],
+        "tags": [
+          "Pages"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7048,7 +7204,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -7234,7 +7392,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7299,7 +7459,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "parameters": []
       }
     },
@@ -7350,7 +7512,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "parameters": [
           {
             "name": "slug",
@@ -7412,7 +7576,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7484,7 +7650,9 @@
           }
         },
         "summary": "",
-        "tags": ["Product"],
+        "tags": [
+          "Product"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7550,7 +7718,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -7740,7 +7910,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7805,7 +7977,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "parameters": []
       }
     },
@@ -7860,7 +8034,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7924,7 +8100,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7996,7 +8174,9 @@
           }
         },
         "summary": "",
-        "tags": ["Products-v2"],
+        "tags": [
+          "Products-v2"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -8062,7 +8242,9 @@
           }
         },
         "summary": "",
-        "tags": ["Sales-and-downloads"],
+        "tags": [
+          "Sales-and-downloads"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -8252,7 +8434,9 @@
           }
         },
         "summary": "",
-        "tags": ["Sales-and-downloads"],
+        "tags": [
+          "Sales-and-downloads"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -8313,7 +8497,9 @@
           }
         },
         "summary": "",
-        "tags": ["Sales-and-downloads"],
+        "tags": [
+          "Sales-and-downloads"
+        ],
         "parameters": []
       }
     },
@@ -8368,7 +8554,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -8558,7 +8746,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -8623,7 +8813,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "parameters": []
       }
     },
@@ -8678,7 +8870,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -8742,7 +8936,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -8814,7 +9010,9 @@
           }
         },
         "summary": "",
-        "tags": ["Service-categories"],
+        "tags": [
+          "Service-categories"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -8879,7 +9077,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -9065,7 +9265,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -9130,7 +9332,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "parameters": []
       }
     },
@@ -9181,7 +9385,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -9241,7 +9447,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -9313,7 +9521,9 @@
           }
         },
         "summary": "",
-        "tags": ["Services"],
+        "tags": [
+          "Services"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -9379,7 +9589,9 @@
           }
         },
         "summary": "",
-        "tags": ["Social-links"],
+        "tags": [
+          "Social-links"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -9569,7 +9781,9 @@
           }
         },
         "summary": "",
-        "tags": ["Social-links"],
+        "tags": [
+          "Social-links"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -9630,7 +9844,9 @@
           }
         },
         "summary": "",
-        "tags": ["Social-links"],
+        "tags": [
+          "Social-links"
+        ],
         "parameters": []
       }
     },
@@ -9684,7 +9900,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -9870,7 +10088,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -9935,7 +10155,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "parameters": []
       }
     },
@@ -9986,7 +10208,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -10046,7 +10270,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -10118,7 +10344,9 @@
           }
         },
         "summary": "",
-        "tags": ["Testimonial"],
+        "tags": [
+          "Testimonial"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -10183,7 +10411,9 @@
           }
         },
         "summary": "",
-        "tags": ["Version"],
+        "tags": [
+          "Version"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -10369,7 +10599,9 @@
           }
         },
         "summary": "",
-        "tags": ["Version"],
+        "tags": [
+          "Version"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -10430,7 +10662,9 @@
           }
         },
         "summary": "",
-        "tags": ["Version"],
+        "tags": [
+          "Version"
+        ],
         "parameters": []
       }
     },
@@ -10485,7 +10719,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -10675,7 +10911,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -10740,7 +10978,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "parameters": []
       }
     },
@@ -10795,7 +11035,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -10859,7 +11101,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -10931,7 +11175,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video-category"],
+        "tags": [
+          "Video-category"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -10996,7 +11242,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -11182,7 +11430,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -11247,7 +11497,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "parameters": []
       }
     },
@@ -11298,7 +11550,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "parameters": [
           {
             "name": "slug",
@@ -11360,7 +11614,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -11432,7 +11688,9 @@
           }
         },
         "summary": "",
-        "tags": ["Video"],
+        "tags": [
+          "Video"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -11497,7 +11755,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -11683,7 +11943,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -11742,7 +12004,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -11808,7 +12072,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "parameters": []
       }
     },
@@ -11859,7 +12125,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -11920,7 +12188,9 @@
           }
         },
         "summary": "",
-        "tags": ["Votes"],
+        "tags": [
+          "Votes"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -11985,7 +12255,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -12171,7 +12443,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -12236,7 +12510,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "parameters": []
       }
     },
@@ -12287,7 +12563,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12347,7 +12625,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -12419,7 +12699,9 @@
           }
         },
         "summary": "",
-        "tags": ["Writer"],
+        "tags": [
+          "Writer"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12485,7 +12767,9 @@
           }
         },
         "summary": "",
-        "tags": ["Email - Email"],
+        "tags": [
+          "Email - Email"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -12554,7 +12838,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -12623,7 +12909,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": []
       }
     },
@@ -12678,7 +12966,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": []
       }
     },
@@ -12733,7 +13023,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12797,7 +13089,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12863,7 +13157,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12925,7 +13221,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -12990,7 +13288,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -13176,7 +13476,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -13237,7 +13539,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "role",
@@ -13312,7 +13616,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "role",
@@ -13377,7 +13683,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -13579,7 +13887,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -13634,7 +13944,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -13699,7 +14011,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -13764,7 +14078,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "provider",
@@ -13830,7 +14146,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -13899,7 +14217,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -13968,7 +14288,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -14023,7 +14345,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -14091,7 +14415,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -14279,7 +14605,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -14330,7 +14658,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -14390,7 +14720,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -14465,7 +14797,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -14484,7 +14818,9 @@
   "components": {
     "schemas": {
       "Affiliate-links": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -14493,14 +14829,18 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
                 "link": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -14598,14 +14938,18 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
                 "link": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -14735,13 +15079,20 @@
           "status": {
             "type": "string",
             "default": "draft",
-            "enum": ["draft", "published"]
+            "enum": [
+              "draft",
+              "published"
+            ]
           },
           "slug": {
             "type": "uid"
           },
           "category": {
-            "required": ["id", "name", "slug"],
+            "required": [
+              "id",
+              "name",
+              "slug"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -14834,7 +15185,9 @@
             }
           },
           "author": {
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -14907,7 +15260,10 @@
           "status": {
             "type": "string",
             "default": "draft",
-            "enum": ["draft", "published"]
+            "enum": [
+              "draft",
+              "published"
+            ]
           },
           "slug": {
             "type": "uid"
@@ -14943,7 +15299,9 @@
         }
       },
       "Articles-page": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -14956,7 +15314,9 @@
                   "properties": {
                     "__component": {
                       "type": "string",
-                      "enum": ["sections.hero"]
+                      "enum": [
+                        "sections.hero"
+                      ]
                     },
                     "id": {
                       "type": "string"
@@ -14968,7 +15328,10 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id", "title"]
+                  "required": [
+                    "id",
+                    "title"
+                  ]
                 }
               ]
             }
@@ -14989,7 +15352,9 @@
                   "properties": {
                     "__component": {
                       "type": "string",
-                      "enum": ["sections.hero"]
+                      "enum": [
+                        "sections.hero"
+                      ]
                     },
                     "id": {
                       "type": "string"
@@ -15001,7 +15366,10 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id", "title"]
+                  "required": [
+                    "id",
+                    "title"
+                  ]
                 }
               ]
             }
@@ -15019,7 +15387,9 @@
         }
       },
       "Bios": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15136,7 +15506,9 @@
         }
       },
       "Carousel-timer": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15160,7 +15532,9 @@
         }
       },
       "Carousel": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15274,7 +15648,11 @@
         }
       },
       "Category": {
-        "required": ["id", "name", "slug"],
+        "required": [
+          "id",
+          "name",
+          "slug"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15354,7 +15732,10 @@
         }
       },
       "NewCategory": {
-        "required": ["name", "slug"],
+        "required": [
+          "name",
+          "slug"
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -15377,7 +15758,9 @@
         }
       },
       "Change-log": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15429,7 +15812,9 @@
         }
       },
       "Coin-list": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15438,7 +15823,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -15463,7 +15850,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -15489,7 +15878,9 @@
         }
       },
       "Cookie-policy": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15521,7 +15912,11 @@
         }
       },
       "Fa-qs": {
-        "required": ["id", "question", "answer"],
+        "required": [
+          "id",
+          "question",
+          "answer"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15533,7 +15928,11 @@
             "type": "string"
           },
           "category": {
-            "required": ["id", "name", "slug"],
+            "required": [
+              "id",
+              "name",
+              "slug"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -15565,7 +15964,10 @@
         }
       },
       "NewFa-qs": {
-        "required": ["question", "answer"],
+        "required": [
+          "question",
+          "answer"
+        ],
         "properties": {
           "question": {
             "type": "string"
@@ -15589,7 +15991,11 @@
         }
       },
       "Getting-started-step": {
-        "required": ["id", "stepDescription", "order"],
+        "required": [
+          "id",
+          "stepDescription",
+          "order"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15605,7 +16011,11 @@
           },
           "externalLink": {
             "type": "object",
-            "required": ["id", "url", "displayText"],
+            "required": [
+              "id",
+              "url",
+              "displayText"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -15621,7 +16031,10 @@
         }
       },
       "NewGetting-started-step": {
-        "required": ["stepDescription", "order"],
+        "required": [
+          "stepDescription",
+          "order"
+        ],
         "properties": {
           "stepDescription": {
             "type": "string"
@@ -15634,7 +16047,11 @@
           },
           "externalLink": {
             "type": "object",
-            "required": ["id", "url", "displayText"],
+            "required": [
+              "id",
+              "url",
+              "displayText"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -15656,7 +16073,11 @@
         }
       },
       "Global": {
-        "required": ["id", "siteName", "defaultSeo"],
+        "required": [
+          "id",
+          "siteName",
+          "defaultSeo"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -15733,7 +16154,11 @@
           },
           "defaultSeo": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -15816,14 +16241,21 @@
         }
       },
       "NewGlobal": {
-        "required": ["siteName", "defaultSeo"],
+        "required": [
+          "siteName",
+          "defaultSeo"
+        ],
         "properties": {
           "siteName": {
             "type": "string"
           },
           "defaultSeo": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -15912,14 +16344,21 @@
         }
       },
       "Homepage": {
-        "required": ["id", "hero"],
+        "required": [
+          "id",
+          "hero"
+        ],
         "properties": {
           "id": {
             "type": "string"
           },
           "seo": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16001,7 +16440,10 @@
           },
           "hero": {
             "type": "object",
-            "required": ["id", "title"],
+            "required": [
+              "id",
+              "title"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16016,7 +16458,9 @@
           },
           "homepagePromo": {
             "type": "object",
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16031,7 +16475,9 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -16050,11 +16496,17 @@
         }
       },
       "NewHomepage": {
-        "required": ["hero"],
+        "required": [
+          "hero"
+        ],
         "properties": {
           "seo": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16136,7 +16588,10 @@
           },
           "hero": {
             "type": "object",
-            "required": ["id", "title"],
+            "required": [
+              "id",
+              "title"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16151,7 +16606,9 @@
           },
           "homepagePromo": {
             "type": "object",
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16166,7 +16623,9 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -16191,7 +16650,11 @@
         }
       },
       "Link": {
-        "required": ["id", "url", "displayText"],
+        "required": [
+          "id",
+          "url",
+          "displayText"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16205,7 +16668,10 @@
         }
       },
       "NewLink": {
-        "required": ["url", "displayText"],
+        "required": [
+          "url",
+          "displayText"
+        ],
         "properties": {
           "url": {
             "type": "string"
@@ -16222,7 +16688,9 @@
         }
       },
       "Management-card": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16278,7 +16746,10 @@
         }
       },
       "Newslettersubscriber": {
-        "required": ["id", "email"],
+        "required": [
+          "id",
+          "email"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16289,7 +16760,9 @@
         }
       },
       "NewNewslettersubscriber": {
-        "required": ["email"],
+        "required": [
+          "email"
+        ],
         "properties": {
           "email": {
             "type": "string"
@@ -16303,7 +16776,10 @@
         }
       },
       "Pages": {
-        "required": ["id", "pageName"],
+        "required": [
+          "id",
+          "pageName"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16334,7 +16810,9 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id"]
+                  "required": [
+                    "id"
+                  ]
                 },
                 {
                   "properties": {
@@ -16358,7 +16836,9 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id"]
+                  "required": [
+                    "id"
+                  ]
                 }
               ]
             }
@@ -16370,7 +16850,9 @@
         }
       },
       "NewPages": {
-        "required": ["pageName"],
+        "required": [
+          "pageName"
+        ],
         "properties": {
           "pageName": {
             "type": "string"
@@ -16398,7 +16880,9 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id"]
+                  "required": [
+                    "id"
+                  ]
                 },
                 {
                   "properties": {
@@ -16422,7 +16906,9 @@
                       "type": "string"
                     }
                   },
-                  "required": ["id"]
+                  "required": [
+                    "id"
+                  ]
                 }
               ]
             }
@@ -16440,7 +16926,10 @@
         }
       },
       "Product": {
-        "required": ["id", "slug"],
+        "required": [
+          "id",
+          "slug"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16493,7 +16982,9 @@
         }
       },
       "NewProduct": {
-        "required": ["slug"],
+        "required": [
+          "slug"
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -16549,7 +17040,12 @@
         }
       },
       "Products-v2": {
-        "required": ["id", "experience", "features", "requirements"],
+        "required": [
+          "id",
+          "experience",
+          "features",
+          "requirements"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16562,7 +17058,10 @@
           },
           "type": {
             "type": "string",
-            "enum": ["strategy", "signal"]
+            "enum": [
+              "strategy",
+              "signal"
+            ]
           },
           "minStartBalance": {
             "type": "string"
@@ -16586,14 +17085,20 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
                 "experience": {
                   "type": "string",
-                  "enum": ["fish", "dolphin", "whale"]
+                  "enum": [
+                    "fish",
+                    "dolphin",
+                    "whale"
+                  ]
                 }
               }
             }
@@ -16602,7 +17107,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16617,7 +17124,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16632,7 +17141,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16656,7 +17167,11 @@
         }
       },
       "NewProducts-v2": {
-        "required": ["experience", "features", "requirements"],
+        "required": [
+          "experience",
+          "features",
+          "requirements"
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -16666,7 +17181,10 @@
           },
           "type": {
             "type": "string",
-            "enum": ["strategy", "signal"]
+            "enum": [
+              "strategy",
+              "signal"
+            ]
           },
           "minStartBalance": {
             "type": "string"
@@ -16690,14 +17208,20 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
                 "experience": {
                   "type": "string",
-                  "enum": ["fish", "dolphin", "whale"]
+                  "enum": [
+                    "fish",
+                    "dolphin",
+                    "whale"
+                  ]
                 }
               }
             }
@@ -16706,7 +17230,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16721,7 +17247,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16736,7 +17264,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16766,7 +17296,9 @@
         }
       },
       "Sales-and-downloads": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16816,7 +17348,9 @@
         }
       },
       "Service-categories": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16824,72 +17358,11 @@
           "name": {
             "type": "string"
           },
-          "image": {
-            "required": [
-              "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "alternativeText": {
-                "type": "string"
-              },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
-                "type": "number"
-              },
-              "url": {
-                "type": "string"
-              },
-              "previewUrl": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "provider_metadata": {
-                "type": "object"
-              },
-              "related": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
+          "description": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
@@ -16901,6 +17374,12 @@
         "properties": {
           "name": {
             "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
@@ -16915,7 +17394,9 @@
         }
       },
       "Services": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -16930,7 +17411,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -16948,7 +17431,9 @@
             "type": "string"
           },
           "service_category": {
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -16956,8 +17441,11 @@
               "name": {
                 "type": "string"
               },
-              "image": {
+              "description": {
                 "type": "string"
+              },
+              "order": {
+                "type": "integer"
               },
               "published_at": {
                 "type": "string"
@@ -16988,7 +17476,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17021,7 +17511,9 @@
         }
       },
       "Social-links": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17030,7 +17522,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17123,7 +17617,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17217,7 +17713,9 @@
         }
       },
       "Testimonial": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17238,7 +17736,12 @@
             "type": "string"
           },
           "product": {
-            "required": ["id", "experience", "features", "requirements"],
+            "required": [
+              "id",
+              "experience",
+              "features",
+              "requirements"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -17335,7 +17838,9 @@
         }
       },
       "Version": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17373,7 +17878,10 @@
         }
       },
       "Video-category": {
-        "required": ["id", "slug"],
+        "required": [
+          "id",
+          "slug"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17384,7 +17892,9 @@
           "videos": {
             "type": "array",
             "items": {
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17435,7 +17945,9 @@
         }
       },
       "NewVideo-category": {
-        "required": ["slug"],
+        "required": [
+          "slug"
+        ],
         "properties": {
           "Category": {
             "type": "string"
@@ -17465,7 +17977,9 @@
         }
       },
       "Video": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17490,7 +18004,10 @@
             "type": "string"
           },
           "video_category": {
-            "required": ["id", "slug"],
+            "required": [
+              "id",
+              "slug"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -17564,7 +18081,9 @@
         }
       },
       "Votes": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17636,7 +18155,11 @@
             }
           },
           "users_permissions_user": {
-            "required": ["id", "email", "subscribedToNewsletter"],
+            "required": [
+              "id",
+              "email",
+              "subscribedToNewsletter"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -17704,7 +18227,9 @@
         }
       },
       "Writer": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17873,7 +18398,10 @@
         }
       },
       "UsersPermissionsRole": {
-        "required": ["id", "name"],
+        "required": [
+          "id",
+          "name"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -17891,7 +18419,13 @@
           "permissions": {
             "type": "array",
             "items": {
-              "required": ["id", "type", "controller", "action", "enabled"],
+              "required": [
+                "id",
+                "type",
+                "controller",
+                "action",
+                "enabled"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17926,7 +18460,11 @@
           "users": {
             "type": "array",
             "items": {
-              "required": ["id", "email", "subscribedToNewsletter"],
+              "required": [
+                "id",
+                "email",
+                "subscribedToNewsletter"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -17976,7 +18514,9 @@
         }
       },
       "NewUsersPermissionsRole": {
-        "required": ["name"],
+        "required": [
+          "name"
+        ],
         "properties": {
           "name": {
             "type": "string",
@@ -18009,7 +18549,11 @@
         }
       },
       "UsersPermissionsUser": {
-        "required": ["id", "email", "subscribedToNewsletter"],
+        "required": [
+          "id",
+          "email",
+          "subscribedToNewsletter"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -18037,7 +18581,10 @@
             "default": false
           },
           "role": {
-            "required": ["id", "name"],
+            "required": [
+              "id",
+              "name"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -18078,7 +18625,10 @@
         }
       },
       "NewUsersPermissionsUser": {
-        "required": ["email", "subscribedToNewsletter"],
+        "required": [
+          "email",
+          "subscribedToNewsletter"
+        ],
         "properties": {
           "username": {
             "type": "string",
@@ -18129,7 +18679,10 @@
         }
       },
       "Error": {
-        "required": ["code", "message"],
+        "required": [
+          "code",
+          "message"
+        ],
         "properties": {
           "code": {
             "type": "integer",

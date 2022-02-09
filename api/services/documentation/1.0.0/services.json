@@ -562,8 +562,11 @@
               "name": {
                 "type": "string"
               },
-              "image": {
+              "description": {
                 "type": "string"
+              },
+              "order": {
+                "type": "integer"
               },
               "published_at": {
                 "type": "string"
