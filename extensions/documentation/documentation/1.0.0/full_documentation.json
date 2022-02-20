@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/09/2022 8:31:08 AM"
+    "x-generation-date": "02/20/2022 7:47:56 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -15473,6 +15473,33 @@
           "location": {
             "type": "string"
           },
+          "BioSocials": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "Twitter",
+                    "FaceBook",
+                    "Instagram",
+                    "LinkedIn",
+                    "YouTube"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -15492,6 +15519,33 @@
           },
           "location": {
             "type": "string"
+          },
+          "BioSocials": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "Twitter",
+                    "FaceBook",
+                    "Instagram",
+                    "LinkedIn",
+                    "YouTube"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",

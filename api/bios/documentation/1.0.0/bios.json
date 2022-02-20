@@ -601,6 +601,33 @@
           "location": {
             "type": "string"
           },
+          "BioSocials": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "Twitter",
+                    "FaceBook",
+                    "Instagram",
+                    "LinkedIn",
+                    "YouTube"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -620,6 +647,33 @@
           },
           "location": {
             "type": "string"
+          },
+          "BioSocials": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "Twitter",
+                    "FaceBook",
+                    "Instagram",
+                    "LinkedIn",
+                    "YouTube"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",
