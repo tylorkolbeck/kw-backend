@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_single_bio_socials",
+  "info": {
+    "name": "Bio Socials",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "FaceBook",
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
