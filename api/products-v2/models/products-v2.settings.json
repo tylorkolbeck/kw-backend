@@ -68,6 +68,9 @@
     },
     "price": {
       "type": "string"
+    },
+    "descriptionEnhanced": {
+      "type": "richtext"
     }
   }
 }

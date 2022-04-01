@@ -590,6 +590,9 @@
               "price": {
                 "type": "string"
               },
+              "descriptionEnhanced": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
