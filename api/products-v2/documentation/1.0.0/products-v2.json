@@ -648,6 +648,9 @@
           "price": {
             "type": "string"
           },
+          "descriptionEnhanced": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -769,6 +772,9 @@
             }
           },
           "price": {
+            "type": "string"
+          },
+          "descriptionEnhanced": {
             "type": "string"
           },
           "published_at": {
