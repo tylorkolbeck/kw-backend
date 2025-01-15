@@ -45,8 +45,7 @@
     "template": "https://github.com/strapi/strapi-template-blog"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": ">=6.0.0"
+    "node": "20.x"
   },
   "license": "MIT"
 }
